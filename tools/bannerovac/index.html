@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bannerovač · Emília Schmidtová</title>
+  <meta name="description" content="Generátor promo bannerov pre 8 e-shopov siete LEDAKCIA – jeden produkt, 8 jazykov, 4 formáty.">
+  <!-- Fonts used inside the banners (extra weights beyond the shared portfolio style) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap">
+  <link rel="stylesheet" href="../../shared/brand.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Shared top bar: back to the portfolio + interface language -->
+  <header class="topbar">
+    <a class="back" href="../../index.html" data-i18n-html="back">← <b>Portfólio Emílie Schmidtovej</b></a>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" data-ui-lang="sk" class="on">SK</button>
+      <button type="button" data-ui-lang="en">EN</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- Intro -->
+    <section class="intro">
+      <div class="intro-text">
+        <p class="eyebrow" data-i18n="eyebrow">Nástroj · E-commerce marketing</p>
+        <h1>Bannerovač</h1>
+        <p class="pitch" data-i18n="pitch">Jeden produkt, 8 krajín, 4 formáty. Promo bannery pre sieť e-shopov LEDAKCIA – s cenami, menami a textami tak, ako ich píšu miestni zákazníci.</p>
+        <div class="intro-actions">
+          <button type="button" class="btn" id="campaignBtn">
+            <span aria-hidden="true">★</span> <span data-i18n="campaignBtn">Kampaň 1+1 – ukážka</span>
+          </button>
+          <span class="muted small" data-i18n="campaignHint">Reflektor so senzorom, 8 krajín, všetky formáty.</span>
+        </div>
+      </div>
+      <ol class="steps" aria-label="How it works">
+        <li class="step-title eyebrow" data-i18n="howTitle">Ako to funguje</li>
+        <li><b data-i18n="step1t">Vyber produkt a akciu</b><span data-i18n="step1d">Z reálneho katalógu – napr. 1+1 zadarmo alebo −25 %.</span></li>
+        <li><b data-i18n="step2t">Zvoľ vizuálny štýl</b><span data-i18n="step2d">4 šablóny. Texty sa samy zmenšia, aby sa vždy zmestili.</span></li>
+        <li><b data-i18n="step3t">Stiahni pre všetky krajiny</b><span data-i18n="step3d">Až 32 bannerov naraz – jednotlivo ako PNG alebo v ZIP-e.</span></li>
+      </ol>
+    </section>
+
+    <div class="layout">
+
+      <!-- ============ Controls ============ -->
+      <aside class="panel card" aria-label="Settings">
+
+        <section class="ctl">
+          <h2 class="ctl-h"><span class="num">1</span><span data-i18n="pProduct">Produkt</span></h2>
+          <input type="search" id="search" data-i18n-ph="searchPh" placeholder="Hľadať názov, kategóriu alebo kód…" autocomplete="off">
+          <div class="product-list" id="productList" role="listbox" aria-label="Products"></div>
+        </section>
+
+        <section class="ctl">
+          <h2 class="ctl-h"><span class="num">2</span><span data-i18n="pDeal">Akcia</span></h2>
+          <div class="chips" id="dealChips" role="radiogroup"></div>
+          <div class="pct-row" id="pctRow" hidden>
+            <label for="pct" data-i18n="pctLabel">Výška zľavy</label>
+            <div class="pct-input"><input type="number" id="pct" min="5" max="90" step="1" value="25"><span>%</span></div>
+          </div>
+        </section>
+
+        <section class="ctl">
+          <h2 class="ctl-h"><span class="num">3</span><span data-i18n="pStyle">Vizuálny štýl</span></h2>
+          <div class="styles" id="styleCards" role="radiogroup"></div>
+        </section>
+
+        <section class="ctl">
+          <h2 class="ctl-h"><span class="num">4</span><span data-i18n="pTexts">Texty pre krajiny</span></h2>
+          <p class="note" data-i18n="textsNote">Akcie, výzvy, ceny a meny sa lokalizujú automaticky. Názov produktu sa neprekladá strojovo (nástroj beží offline, bez AI) – SK názov sa skopíruje do všetkých jazykov a môžeš ho prepísať.</p>
+          <label for="nameSk" data-i18n="nameLabel">Krátky názov na banner (SK)</label>
+          <input type="text" id="nameSk" maxlength="70">
+          <details class="loc">
+            <summary data-i18n="locSummary">Upraviť názov a nadpis pre každý jazyk</summary>
+            <div class="loc-table" id="locTable"></div>
+            <button type="button" class="btn ghost small-btn" id="copySk" data-i18n="copySk">Skopírovať SK názov do všetkých</button>
+          </details>
+        </section>
+
+        <section class="ctl">
+          <h2 class="ctl-h"><span class="num">5</span><span data-i18n="pOutput">Formáty a trhy</span></h2>
+          <div class="checks" id="formatChecks"></div>
+          <div class="checks markets" id="marketChecks"></div>
+        </section>
+
+        <section class="ctl prices">
+          <h2 class="ctl-h"><span class="num">€</span><span data-i18n="pPrices">Ceny podľa krajín</span></h2>
+          <div class="price-table" id="priceTable"></div>
+          <p class="note" data-i18n="priceNote">Ceny sú ilustračné – prepočítané z katalógového snapshotu podľa cenových pravidiel jednotlivých e-shopov (napr. 49,99 € = 1 299 Kč = 229,99 zł).</p>
+        </section>
+      </aside>
+
+      <!-- ============ Previews ============ -->
+      <section class="previews" aria-live="polite">
+        <div class="toolbar">
+          <div class="tabs" id="formatTabs" role="tablist"></div>
+          <div class="toolbar-actions">
+            <button type="button" class="btn ghost" id="showcaseBtn"><span data-i18n="showcaseBtn">Export showcase</span> <span class="count" id="showcaseCount">0</span></button>
+            <button type="button" class="btn" id="zipBtn" data-i18n="zipBtn">Stiahnuť všetko (ZIP)</button>
+          </div>
+        </div>
+        <p class="status muted small" id="status"></p>
+        <div id="grid"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Large view -->
+  <dialog id="viewer" aria-label="Banner">
+    <div class="viewer-head">
+      <div><b id="viewerTitle"></b> <span class="muted" id="viewerMeta"></span></div>
+      <button type="button" class="icon-btn" id="viewerClose" aria-label="Close">✕</button>
+    </div>
+    <div class="viewer-body"><canvas id="viewerCanvas"></canvas></div>
+    <div class="viewer-foot">
+      <button type="button" class="btn ghost" id="viewerPrev" aria-label="Previous">←</button>
+      <label class="star-toggle"><input type="checkbox" id="viewerStar"> <span data-i18n="toShowcase">Do showcase</span></label>
+      <button type="button" class="btn" id="viewerDownload" data-i18n="downloadPng">Stiahnuť PNG</button>
+      <button type="button" class="btn ghost" id="viewerNext" aria-label="Next">→</button>
+    </div>
+  </dialog>
+
+  <footer class="credit">Vytvorila Emília Schmidtová · 2026</footer>
+
+  <!-- JSZip only for the "Download all" button (exact version from cdnjs) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" defer></script>
+  <script src="markets.js" defer></script>
+  <script src="render.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

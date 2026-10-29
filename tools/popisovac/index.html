@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Popisovač – AI popisy produktov</title>
+  <meta name="description" content="AI generátor produktových popisov pre 8 e-shopov LEDAKCIA – SEO titulok, meta popis a HTML pre Shoptet v 8 jazykoch.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23d9902b' d='M12 2a7 7 0 0 0-4 12.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26A7 7 0 0 0 12 2Zm-3 18h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1Z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../../shared/brand.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top bar shared by all portfolio tools -->
+  <header class="topbar">
+    <a class="back" href="../../index.html" data-i18n-html="back">← <b>Portfólio Emílie Schmidtovej</b></a>
+    <div class="lang-switch" role="group" aria-label="Jazyk / Language">
+      <button type="button" data-ui-lang="sk" class="on">SK</button>
+      <button type="button" data-ui-lang="en">EN</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Intro: name, pitch, how it works -->
+    <section class="hero">
+      <p class="eyebrow" data-i18n="eyebrow"></p>
+      <h1><span class="bulb" aria-hidden="true"></span><span data-i18n="title"></span></h1>
+      <p class="pitch" data-i18n="pitch"></p>
+
+      <h2 class="how-title" data-i18n="howTitle"></h2>
+      <ol class="how">
+        <li class="card"><span class="num">1</span><div><b data-i18n="how1t"></b><p data-i18n="how1"></p></div></li>
+        <li class="card"><span class="num">2</span><div><b data-i18n="how2t"></b><p data-i18n="how2"></p></div></li>
+        <li class="card"><span class="num">3</span><div><b data-i18n="how3t"></b><p data-i18n="how3"></p></div></li>
+      </ol>
+    </section>
+
+    <!-- Demo / live mode banner -->
+    <div id="modeBanner" class="mode-banner" hidden>
+      <span class="pill" id="modeBadge"></span>
+      <span id="modeText"></span>
+      <button type="button" class="btn small" id="modeCta" data-i18n="demoCta"></button>
+    </div>
+
+    <div class="workspace">
+      <!-- LEFT: input, options, settings -->
+      <aside class="side">
+        <form class="card panel" id="form" novalidate>
+          <h2 class="panel-title" data-i18n="inputTitle"></h2>
+
+          <div class="seg" role="tablist" id="sourceSwitch">
+            <button type="button" role="tab" data-source="catalog" class="on" data-i18n="srcCatalog"></button>
+            <button type="button" role="tab" data-source="paste" data-i18n="srcPaste"></button>
+          </div>
+
+          <!-- Source A: catalogue -->
+          <div id="srcCatalog" class="src">
+            <label for="productSelect" data-i18n="pickProduct"></label>
+            <select id="productSelect"><option data-i18n="loadingCatalog"></option></select>
+            <div id="productCard" class="product-card"></div>
+          </div>
+
+          <!-- Source B: pasted supplier text -->
+          <div id="srcPaste" class="src" hidden>
+            <label for="pasteName" data-i18n="pasteName"></label>
+            <input id="pasteName" type="text" data-i18n-ph="pasteNamePh">
+            <label for="pasteText" class="mt" data-i18n="pasteLabel"></label>
+            <textarea id="pasteText" rows="7" data-i18n-ph="pastePh"></textarea>
+          </div>
+
+          <div class="examples">
+            <span class="mini-label" data-i18n="examplesLabel"></span>
+            <div id="exampleChips" class="chips"></div>
+          </div>
+
+          <hr>
+          <h2 class="panel-title" data-i18n="optionsTitle"></h2>
+
+          <span class="mini-label" data-i18n="tone"></span>
+          <div class="seg" id="toneSwitch">
+            <button type="button" data-tone="friendly" class="on" data-i18n="toneFriendly"></button>
+            <button type="button" data-tone="professional" data-i18n="toneProfessional"></button>
+            <button type="button" data-tone="technical" data-i18n="toneTechnical"></button>
+          </div>
+
+          <span class="mini-label" data-i18n="length"></span>
+          <div class="seg" id="lengthSwitch">
+            <button type="button" data-length="short" data-i18n="lenShort"></button>
+            <button type="button" data-length="medium" class="on" data-i18n="lenMedium"></button>
+            <button type="button" data-length="long" data-i18n="lenLong"></button>
+          </div>
+
+          <div class="lang-head">
+            <span class="mini-label" data-i18n="languages"></span>
+            <span class="links">
+              <button type="button" class="linkish" id="langAll" data-i18n="all"></button> ·
+              <button type="button" class="linkish" id="langNone" data-i18n="none"></button>
+            </span>
+          </div>
+          <div id="marketChecks" class="market-checks"></div>
+
+          <p id="formError" class="form-error" role="alert" hidden></p>
+          <button type="submit" class="btn wide" id="generateBtn"><span class="spark" aria-hidden="true">✦</span><span id="generateLabel"></span></button>
+        </form>
+
+        <!-- AI settings: the visitor's own API key -->
+        <details class="card panel settings" id="settings">
+          <summary><span data-i18n="settingsTitle"></span><span class="key-dot" id="keyDot"></span></summary>
+          <form id="keyForm" autocomplete="off">
+          <label for="apiKey" class="mt" data-i18n="keyLabel"></label>
+          <input id="apiKey" type="password" autocomplete="off" spellcheck="false" data-i18n-ph="keyPh">
+          <div class="row">
+            <button type="submit" class="btn small" id="keySave" data-i18n="keySave"></button>
+            <button type="button" class="btn small ghost" id="keyRemove" data-i18n="keyRemove"></button>
+          </div>
+          </form>
+          <p class="key-status" id="keyStatus" role="status"></p>
+          <p class="privacy"><span aria-hidden="true">🔒</span> <span data-i18n="keyPrivacy"></span></p>
+          <p class="muted small-text"><span data-i18n="keyWhere"></span><br><span data-i18n="modelInfo"></span></p>
+        </details>
+      </aside>
+
+      <!-- RIGHT: results -->
+      <section class="results card panel" id="results" aria-live="polite">
+        <div class="results-head">
+          <h2 class="panel-title" data-i18n="resultsTitle"></h2>
+          <span id="resultBadge" class="pill" hidden></span>
+        </div>
+        <p id="resultMeta" class="muted result-meta"></p>
+
+        <!-- Empty state -->
+        <div id="emptyState" class="empty">
+          <div class="empty-bulb" aria-hidden="true"></div>
+          <p data-i18n="emptyResults"></p>
+        </div>
+
+        <!-- Progress state (live generation) -->
+        <div id="progress" class="progress" hidden>
+          <div class="glow-bulb" aria-hidden="true"></div>
+          <h3 data-i18n="progressTitle"></h3>
+          <ol id="progressSteps" class="steps"></ol>
+          <p class="muted"><span id="elapsed"></span> · <span data-i18n="progressHint"></span></p>
+          <button type="button" class="btn ghost small" id="cancelBtn" data-i18n="cancel"></button>
+        </div>
+
+        <!-- Error state -->
+        <div id="errorBox" class="error-box" role="alert" hidden></div>
+
+        <!-- Filled result -->
+        <div id="output" hidden>
+          <div id="notes" class="notes" hidden></div>
+
+          <div class="market-tabs" role="tablist" id="marketTabs"></div>
+
+          <div class="seg views" id="viewSwitch" role="tablist">
+            <button type="button" data-view="preview" class="on" data-i18n="viewPreview"></button>
+            <button type="button" data-view="texts" data-i18n="viewTexts"></button>
+            <button type="button" data-view="compare" data-i18n="viewCompare"></button>
+          </div>
+
+          <div id="viewPreview" class="view"></div>
+          <div id="viewTexts" class="view" hidden></div>
+          <div id="viewCompare" class="view" hidden></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="credit" data-i18n="credit"></footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

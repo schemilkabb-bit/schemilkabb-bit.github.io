@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Svetelný poradca</title>
+  <meta name="description" content="Aké svetlo potrebujem do izby? Štyri otázky a dostanete lúmeny, farbu svetla, IP krytie a konkrétne produkty z ponuky LEDAKCIA.">
+  <link rel="stylesheet" href="../../shared/brand.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Shared top bar: back to the portfolio + language switch -->
+  <header class="topbar">
+    <a class="back" href="../../index.html" data-i18n-html="back">← <b>Portfólio Emílie Schmidtovej</b></a>
+    <div class="lang-switch" role="group" aria-label="Jazyk / Language">
+      <button type="button" data-lang="sk" class="on">SK</button>
+      <button type="button" data-lang="en">EN</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <!-- Intro: what the tool is and why it exists -->
+    <section class="hero">
+      <p class="eyebrow" data-i18n="eyebrow">Interaktívny nástroj · LEDAKCIA</p>
+      <h1 data-i18n="title">Svetelný poradca</h1>
+      <p class="pitch" data-i18n="pitch">Štyri jednoduché otázky a viete, koľko svetla potrebujete, akej farby a ktoré konkrétne svietidlá kúpiť.</p>
+      <blockquote class="story">
+        <span class="story-mark" aria-hidden="true">“</span>
+        <p data-i18n="story">Najčastejšia otázka v našej predajni aj v e-mailoch znie: „Aké svetlo potrebujem do izby?“ Ľudia nemusia rozumieť lúmenom, kelvinom ani IP krytiu – chcú vedieť, čo si majú kúpiť. Tento poradca odpovedá tak, ako by som odpovedala ja pri pulte.</p>
+        <footer data-i18n="storyBy">— Emília, predajňa LEDAKCIA Bratislava</footer>
+      </blockquote>
+    </section>
+
+    <!-- The quiz: one question per screen. Filled in by app.js -->
+    <section id="quiz" class="card quiz" aria-live="polite">
+      <div class="quiz-head">
+        <button type="button" class="icon-btn" id="backBtn" data-i18n-aria="back_step" aria-label="Späť">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="progress" role="progressbar" aria-valuemin="1" aria-valuemax="4" id="progress">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <span class="step-count" id="stepCount">1 / 4</span>
+      </div>
+      <div id="stepArea" class="step-area"></div>
+    </section>
+
+    <!-- The result screen. Filled in by app.js -->
+    <section id="result" class="result" hidden></section>
+
+    <noscript><p class="card" style="padding:20px">Tento nástroj potrebuje zapnutý JavaScript.</p></noscript>
+  </main>
+
+  <footer class="credit" data-i18n="credit">Vytvorila Emília Schmidtová · 2026</footer>
+
+  <!-- Small "copied" notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

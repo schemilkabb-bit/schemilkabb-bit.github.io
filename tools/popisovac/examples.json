@@ -1,0 +1,301 @@
+{
+  "about": "Saved example results for demo mode. Same JSON shape as the live AI answer (see SCHEMA in ai.js), plus code/tone/length. Only facts from shared/products.json are used.",
+  "examples": [
+    {
+      "code": "44801",
+      "label": { "sk": "Retro LED žiarovka", "en": "Retro LED bulb" },
+      "tone": "friendly",
+      "length": "medium",
+      "review_notes": {
+        "sk": [
+          "V podkladoch je uvedená „technológia SMD“, čo pri filament žiarovke nesedí – v texte som to vynechala, odporúčam overiť u dodávateľa.",
+          "Úspora 80 % a 20× dlhšia životnosť sú údaje výrobcu – v texte sú tak aj označené."
+        ],
+        "en": [
+          "The source mentions “SMD technology”, which doesn’t fit a filament bulb – I left it out; worth checking with the supplier.",
+          "The 80% saving and 20× longer life are manufacturer claims – the copy attributes them to the manufacturer."
+        ]
+      },
+      "results": [
+        {
+          "market": "sk",
+          "product_name": "LED filament žiarovka E27 6W, 660 lm, 2700K, matná A60",
+          "seo_title": "LED filament žiarovka E27 6W matná 2700K – náhrada 55W",
+          "meta_description": "Matná LED filament žiarovka E27 so 660 lm a teplým svetlom 2700K. Spotrebuje 6W namiesto 55W, nebliká a svieti takmer do všetkých strán.",
+          "short_description": "Útulné teplé svetlo ako zo starej dobrej žiarovky, no so spotrebou iba 6 W. Matný kryt svetlo jemne rozptýli, takže sa hodí do bytu, obchodu aj ako dekoratívne osvetlenie.",
+          "description_html": "<h2>Teplé svetlo ako z klasickej žiarovky, s o 80 % nižšou spotrebou</h2><p>Táto matná LED filament žiarovka od V-TAC so závitom E27 dáva 660 lúmenov – približne toľko svetla ako klasická 55W žiarovka, no spotrebuje len 6 W. Podľa výrobcu používa o 80 % menej energie a vydrží až 20-krát dlhšie ako bežné žiarovky.</p><h2>Čo znamenajú čísla na obale</h2><ul><li><strong>660 lm (lúmeny)</strong> – množstvo svetla. Je to toľko svetla, na koľko ste zvyknutí pri 55W žiarovke.</li><li><strong>2700 K (Kelviny)</strong> – farba svetla. Čím nižšie číslo, tým teplejšie a žltšie svetlo; 2700 K je útulná teplá biela, ideálna do obývačky či spálne.</li><li><strong>Vyžarovací uhol 300°</strong> – svieti takmer do všetkých strán.</li><li><strong>E27, tvar A60</strong> – klasický hrubý závit a tvar hrušky, Ø 60 × 107 mm.</li></ul><h2>Prečo si ju obľúbite</h2><ul><li>Nebliká, nevyžaruje UV žiarenie a neobsahuje ortuť.</li><li>Integrovaný IC ovládač a vynikajúci účinník.</li><li>Vhodná do domácnosti, obchodu aj na dekoratívne osvetlenie.</li></ul>",
+          "benefits": ["6 W namiesto 55 W – citeľne nižší účet za elektrinu", "Teplé svetlo 2700 K pre útulnú atmosféru", "Matný kryt jemne rozptýli svetlo", "Bez blikania, UV žiarenia a ortuti", "Podľa výrobcu až 20× dlhšia životnosť"],
+          "keywords": ["led žiarovka e27", "filament žiarovka e27", "matná led žiarovka", "led žiarovka teplá biela", "led žiarovka 2700k", "led žiarovka 6w e27", "náhrada klasickej žiarovky"]
+        },
+        {
+          "market": "cz",
+          "product_name": "LED filament žárovka E27 6W, 660 lm, 2700K, matná A60",
+          "seo_title": "LED filament žárovka E27 6W matná 2700K – náhrada 55W",
+          "meta_description": "Matná LED filament žárovka E27 s 660 lm a teplým světlem 2700K. Spotřebuje 6W místo 55W, nebliká a svítí téměř do všech stran.",
+          "short_description": "Útulné teplé světlo jako ze staré dobré žárovky, ale se spotřebou pouhých 6 W. Matný kryt světlo jemně rozptýlí, takže se hodí do bytu, obchodu i jako dekorativní osvětlení.",
+          "description_html": "<h2>Teplé světlo jako z klasické žárovky, s o 80 % nižší spotřebou</h2><p>Tato matná LED filament žárovka od V-TAC se závitem E27 dává 660 lumenů – přibližně tolik světla jako klasická 55W žárovka, ale spotřebuje jen 6 W. Podle výrobce využívá o 80 % méně energie a vydrží až 20krát déle než běžné žárovky.</p><h2>Co znamenají čísla na obalu</h2><ul><li><strong>660 lm (lumeny)</strong> – množství světla. Je to tolik světla, na kolik jste zvyklí u 55W žárovky.</li><li><strong>2700 K (kelviny)</strong> – barva světla. Čím nižší číslo, tím teplejší a žlutější světlo; 2700 K je útulná teplá bílá, ideální do obýváku nebo ložnice.</li><li><strong>Vyzařovací úhel 300°</strong> – svítí téměř do všech stran.</li><li><strong>E27, tvar A60</strong> – klasický velký závit a tvar hrušky, Ø 60 × 107 mm.</li></ul><h2>Proč si ji oblíbíte</h2><ul><li>Nebliká, nevyzařuje UV záření a neobsahuje rtuť.</li><li>Integrovaný IC driver a vynikající účiník.</li><li>Vhodná do domácnosti, obchodu i pro dekorativní osvětlení.</li></ul>",
+          "benefits": ["6 W místo 55 W – znatelně nižší účet za elektřinu", "Teplé světlo 2700 K pro útulnou atmosféru", "Matný kryt jemně rozptyluje světlo", "Bez blikání, UV záření a rtuti", "Podle výrobce až 20× delší životnost"],
+          "keywords": ["led žárovka e27", "filament žárovka e27", "matná led žárovka", "led žárovka teplá bílá", "led žárovka 2700k", "led žárovka 6w e27", "náhrada klasické žárovky"]
+        },
+        {
+          "market": "pl",
+          "product_name": "Żarówka LED filament E27 6W, 660 lm, 2700K, matowa A60",
+          "seo_title": "Żarówka LED filament E27 6W matowa 2700K – zamiast 55W",
+          "meta_description": "Matowa żarówka LED filament E27 o strumieniu 660 lm i ciepłym świetle 2700K. Zużywa 6W zamiast 55W, nie migocze i świeci niemal we wszystkie strony.",
+          "short_description": "Przytulne, ciepłe światło jak ze starej dobrej żarówki, ale przy zużyciu zaledwie 6 W. Matowa bańka delikatnie rozprasza światło, dlatego sprawdzi się w domu, w sklepie i jako oświetlenie dekoracyjne.",
+          "description_html": "<h2>Ciepłe światło jak z klasycznej żarówki, przy o 80% mniejszym zużyciu energii</h2><p>Ta matowa żarówka LED filament marki V-TAC z gwintem E27 daje 660 lumenów – mniej więcej tyle światła co klasyczna żarówka 55 W, ale zużywa tylko 6 W. Według producenta zużywa o 80% mniej energii i działa nawet 20 razy dłużej niż zwykłe żarówki.</p><h2>Co oznaczają liczby na opakowaniu</h2><ul><li><strong>660 lm (lumeny)</strong> – ilość światła. To tyle, ile daje znana Ci żarówka 55 W.</li><li><strong>2700 K (kelwiny)</strong> – barwa światła. Im niższa liczba, tym cieplejsze, bardziej żółte światło; 2700 K to przytulna ciepła biel, idealna do salonu lub sypialni.</li><li><strong>Kąt świecenia 300°</strong> – świeci niemal we wszystkich kierunkach.</li><li><strong>E27, kształt A60</strong> – klasyczny gruby gwint i kształt gruszki, Ø 60 × 107 mm.</li></ul><h2>Dlaczego ją polubisz</h2><ul><li>Nie migocze, nie emituje promieniowania UV i nie zawiera rtęci.</li><li>Zintegrowany sterownik IC i doskonały współczynnik mocy.</li><li>Do domu, sklepu i oświetlenia dekoracyjnego.</li></ul>",
+          "benefits": ["6 W zamiast 55 W – wyraźnie niższy rachunek za prąd", "Ciepłe światło 2700 K dla przytulnej atmosfery", "Matowa bańka delikatnie rozprasza światło", "Bez migotania, promieniowania UV i rtęci", "Według producenta nawet 20× dłuższa żywotność"],
+          "keywords": ["żarówka led e27", "żarówka filament e27", "matowa żarówka led", "żarówka led ciepła biała", "żarówka led 2700k", "żarówka led 6w e27", "zamiennik tradycyjnej żarówki"]
+        },
+        {
+          "market": "at",
+          "product_name": "LED Filament Glühbirne E27 6W, 660 lm, 2700K, matt A60",
+          "seo_title": "LED Filament Glühbirne E27 6W matt 2700K – ersetzt 55W",
+          "meta_description": "Matte LED Filament Glühbirne E27 mit 660 lm und warmweißem Licht (2700K). Verbraucht 6W statt 55W, flimmert nicht und leuchtet fast rundum.",
+          "short_description": "Gemütliches, warmes Licht wie von der guten alten Glühbirne – bei nur 6 W Verbrauch. Der matte Kolben streut das Licht sanft und passt damit in die Wohnung, ins Geschäft oder als dekorative Beleuchtung.",
+          "description_html": "<h2>Warmes Licht wie von der klassischen Glühbirne – mit 80 % weniger Verbrauch</h2><p>Diese matte LED Filament Glühbirne von V-TAC mit E27-Sockel liefert 660 Lumen – etwa so viel Licht wie eine klassische 55-W-Glühbirne, verbraucht aber nur 6 W. Laut Hersteller benötigt sie 80 % weniger Energie und hält bis zu 20-mal länger als herkömmliche Glühbirnen.</p><h2>Was die Zahlen auf der Verpackung bedeuten</h2><ul><li><strong>660 lm (Lumen)</strong> – die Lichtmenge. So viel Licht, wie Sie es von einer 55-W-Glühbirne gewohnt sind.</li><li><strong>2700 K (Kelvin)</strong> – die Lichtfarbe. Je niedriger die Zahl, desto wärmer und gelblicher das Licht; 2700 K ist ein gemütliches Warmweiß, ideal für Wohn- und Schlafzimmer.</li><li><strong>Abstrahlwinkel 300°</strong> – leuchtet fast in alle Richtungen.</li><li><strong>E27, Form A60</strong> – klassisches großes Gewinde und Birnenform, Ø 60 × 107 mm.</li></ul><h2>Warum Sie sie mögen werden</h2><ul><li>Kein Flimmern, keine UV-Strahlung, kein Quecksilber.</li><li>Integrierter IC-Treiber und ausgezeichneter Leistungsfaktor.</li><li>Für Wohnung, Geschäft und dekorative Beleuchtung.</li></ul>",
+          "benefits": ["6 W statt 55 W – spürbar niedrigere Stromrechnung", "Warmweißes Licht mit 2700 K für gemütliche Stimmung", "Matter Kolben streut das Licht sanft", "Ohne Flimmern, UV-Strahlung und Quecksilber", "Laut Hersteller bis zu 20× längere Lebensdauer"],
+          "keywords": ["led glühbirne e27", "led filament e27", "led birne matt", "led glühbirne warmweiß", "led 2700k e27", "led glühbirne 6w", "ersatz für glühbirne"]
+        },
+        {
+          "market": "hr",
+          "product_name": "LED filament žarulja E27 6W, 660 lm, 2700K, mat A60",
+          "seo_title": "LED filament žarulja E27 6W mat 2700K – zamjena za 55W",
+          "meta_description": "Mat LED filament žarulja E27 sa 660 lm i toplim svjetlom od 2700K. Troši 6W umjesto 55W, ne treperi i svijetli gotovo u svim smjerovima.",
+          "short_description": "Ugodno toplo svjetlo kao iz stare dobre žarulje, ali uz potrošnju od samo 6 W. Mat staklo nježno raspršuje svjetlo pa je idealna za dom, trgovinu i dekorativnu rasvjetu.",
+          "description_html": "<h2>Toplo svjetlo kao iz klasične žarulje, uz 80 % manju potrošnju</h2><p>Ova mat LED filament žarulja marke V-TAC s navojem E27 daje 660 lumena – otprilike koliko i klasična žarulja od 55 W, a troši samo 6 W. Prema proizvođaču troši 80 % manje energije i traje do 20 puta dulje od običnih žarulja.</p><h2>Što znače brojevi na pakiranju</h2><ul><li><strong>660 lm (lumeni)</strong> – količina svjetla. Toliko svjetla koliko ste navikli od žarulje od 55 W.</li><li><strong>2700 K (kelvini)</strong> – boja svjetla. Što je broj manji, svjetlo je toplije i žuće; 2700 K je ugodna topla bijela, idealna za dnevni boravak ili spavaću sobu.</li><li><strong>Kut zračenja 300°</strong> – svijetli gotovo u svim smjerovima.</li><li><strong>E27, oblik A60</strong> – klasični veliki navoj i oblik kruške, Ø 60 × 107 mm.</li></ul><h2>Zašto ćete je zavoljeti</h2><ul><li>Ne treperi, ne emitira UV zračenje i ne sadrži živu.</li><li>Integrirani IC upravljač i izvrstan faktor snage.</li><li>Za dom, trgovinu i dekorativnu rasvjetu.</li></ul>",
+          "benefits": ["6 W umjesto 55 W – osjetno niži račun za struju", "Toplo svjetlo od 2700 K za ugodnu atmosferu", "Mat staklo nježno raspršuje svjetlo", "Bez treperenja, UV zračenja i žive", "Prema proizvođaču do 20× dulji vijek trajanja"],
+          "keywords": ["led žarulja e27", "filament žarulja e27", "mat led žarulja", "led žarulja toplo bijela", "led žarulja 2700k", "led žarulja 6w e27", "zamjena za klasičnu žarulju"]
+        },
+        {
+          "market": "si",
+          "product_name": "LED filament sijalka E27 6W, 660 lm, 2700K, mat A60",
+          "seo_title": "LED filament sijalka E27 6W mat 2700K – nadomestek 55W",
+          "meta_description": "Mat LED filament sijalka E27 s 660 lm in toplo belo svetlobo 2700K. Porabi 6W namesto 55W, ne utripa in sveti skoraj v vse smeri.",
+          "short_description": "Prijetna topla svetloba kot iz stare dobre žarnice, a s porabo le 6 W. Mat steklo svetlobo nežno razprši, zato je primerna za dom, trgovino in dekorativno razsvetljavo.",
+          "description_html": "<h2>Topla svetloba kot iz klasične žarnice, z 80 % nižjo porabo</h2><p>Ta mat LED filament sijalka znamke V-TAC z navojem E27 oddaja 660 lumnov – približno toliko svetlobe kot klasična 55-W žarnica, porabi pa le 6 W. Po navedbah proizvajalca porabi 80 % manj energije in zdrži do 20-krat dlje kot običajne žarnice.</p><h2>Kaj pomenijo številke na embalaži</h2><ul><li><strong>660 lm (lumni)</strong> – količina svetlobe. Toliko svetlobe, kot ste je vajeni pri 55-W žarnici.</li><li><strong>2700 K (kelvini)</strong> – barva svetlobe. Nižja kot je številka, toplejša in bolj rumena je svetloba; 2700 K je prijetna toplo bela, idealna za dnevno sobo ali spalnico.</li><li><strong>Kot sevanja 300°</strong> – sveti skoraj v vse smeri.</li><li><strong>E27, oblika A60</strong> – klasičen debel navoj in oblika hruške, Ø 60 × 107 mm.</li></ul><h2>Zakaj vam bo všeč</h2><ul><li>Ne utripa, ne oddaja UV sevanja in ne vsebuje živega srebra.</li><li>Vgrajen IC gonilnik in odličen faktor moči.</li><li>Za dom, trgovino in dekorativno razsvetljavo.</li></ul>",
+          "benefits": ["6 W namesto 55 W – občutno nižji račun za elektriko", "Topla bela svetloba 2700 K za prijetno vzdušje", "Mat steklo nežno razprši svetlobo", "Brez utripanja, UV sevanja in živega srebra", "Po navedbah proizvajalca do 20× daljša življenjska doba"],
+          "keywords": ["led sijalka e27", "led žarnica e27", "filament sijalka", "mat led sijalka", "led sijalka toplo bela", "led sijalka 2700k", "nadomestek za klasično žarnico"]
+        },
+        {
+          "market": "hu",
+          "product_name": "LED filament izzó E27 6W, 660 lm, 2700K, matt A60",
+          "seo_title": "LED filament izzó E27 6W matt 2700K – 55W helyett",
+          "meta_description": "Matt LED filament izzó E27 foglalattal, 660 lm fényárammal és 2700K meleg fehér fénnyel. 55W helyett csak 6W-ot fogyaszt, és nem villog.",
+          "short_description": "Otthonos, meleg fény, mint a jó öreg hagyományos izzóé – mindössze 6 W fogyasztással. A matt bura lágyan szórja a fényt, így lakásba, üzletbe és dekorációs világításnak is ideális.",
+          "description_html": "<h2>Meleg fény, mint a hagyományos izzóé – 80%-kal kisebb fogyasztással</h2><p>Ez a V-TAC matt LED filament izzó E27 foglalattal 660 lument ad – nagyjából annyi fényt, mint egy hagyományos 55 W-os izzó, de csak 6 W-ot fogyaszt. A gyártó szerint 80%-kal kevesebb energiát használ, és akár 20-szor tovább tart, mint a hagyományos izzók.</p><h2>Mit jelentenek a számok a dobozon</h2><ul><li><strong>660 lm (lumen)</strong> – a fény mennyisége. Annyi fény, amennyit egy 55 W-os izzótól megszokott.</li><li><strong>2700 K (kelvin)</strong> – a fény színe. Minél kisebb a szám, annál melegebb, sárgásabb a fény; a 2700 K otthonos meleg fehér, ideális nappaliba vagy hálószobába.</li><li><strong>300°-os sugárzási szög</strong> – szinte minden irányba világít.</li><li><strong>E27, A60 forma</strong> – klasszikus E27-es (normál) foglalat és körte forma, Ø 60 × 107 mm.</li></ul><h2>Miért fogja szeretni</h2><ul><li>Nem villog, nem bocsát ki UV-sugárzást és nem tartalmaz higanyt.</li><li>Beépített IC meghajtó és kiváló teljesítménytényező.</li><li>Lakásba, üzletbe és dekorációs világításhoz.</li></ul>",
+          "benefits": ["6 W 55 W helyett – érezhetően kisebb villanyszámla", "2700 K meleg fehér fény az otthonos hangulatért", "A matt bura lágyan szórja a fényt", "Villogás, UV-sugárzás és higany nélkül", "A gyártó szerint akár 20× hosszabb élettartam"],
+          "keywords": ["led izzó e27", "filament izzó e27", "matt led izzó", "meleg fehér led izzó", "led izzó 2700k", "led izzó 6w e27", "hagyományos izzó helyettesítése"]
+        },
+        {
+          "market": "ro",
+          "product_name": "Bec LED filament E27 6W, 660 lm, 2700K, mat A60",
+          "seo_title": "Bec LED filament E27 6W mat 2700K – înlocuiește 55W",
+          "meta_description": "Bec LED filament E27 mat, cu flux de 660 lm și lumină caldă 2700K. Consumă 6W în loc de 55W, nu pâlpâie și luminează aproape în toate direcțiile.",
+          "short_description": "Lumină caldă și primitoare, ca a becului clasic de altădată, dar cu un consum de doar 6 W. Globul mat difuzează lumina delicat, așa că este potrivit pentru casă, magazin și iluminat decorativ.",
+          "description_html": "<h2>Lumină caldă ca a becului clasic, cu un consum cu 80% mai mic</h2><p>Acest bec LED filament mat de la V-TAC, cu dulie E27, oferă 660 de lumeni – aproximativ cât un bec clasic de 55 W, dar consumă doar 6 W. Potrivit producătorului, folosește cu 80% mai puțină energie și durează de până la 20 de ori mai mult decât becurile obișnuite.</p><h2>Ce înseamnă cifrele de pe ambalaj</h2><ul><li><strong>660 lm (lumeni)</strong> – cantitatea de lumină. Atâta lumină cât sunteți obișnuit de la un bec de 55 W.</li><li><strong>2700 K (kelvini)</strong> – culoarea luminii. Cu cât cifra este mai mică, cu atât lumina este mai caldă și mai gălbuie; 2700 K este un alb cald, primitor, ideal pentru living sau dormitor.</li><li><strong>Unghi de iluminare 300°</strong> – luminează aproape în toate direcțiile.</li><li><strong>E27, formă A60</strong> – filet clasic gros și formă de pară, Ø 60 × 107 mm.</li></ul><h2>De ce o să vă placă</h2><ul><li>Nu pâlpâie, nu emite radiații UV și nu conține mercur.</li><li>Driver IC integrat și factor de putere excelent.</li><li>Pentru casă, magazin și iluminat decorativ.</li></ul>",
+          "benefits": ["6 W în loc de 55 W – factură la curent vizibil mai mică", "Lumină caldă de 2700 K pentru o atmosferă primitoare", "Globul mat difuzează lumina delicat", "Fără pâlpâire, radiații UV și mercur", "Potrivit producătorului, durată de viață de până la 20× mai mare"],
+          "keywords": ["bec led e27", "bec filament e27", "bec led mat", "bec led lumina calda", "bec led 2700k", "bec led 6w e27", "inlocuitor bec incandescent"]
+        }
+      ]
+    },
+    {
+      "code": "8574",
+      "label": { "sk": "Solárny reflektor", "en": "Solar floodlight" },
+      "tone": "technical",
+      "length": "medium",
+      "review_notes": {
+        "sk": [
+          "Údaj o výdrži batérie „asi 8 / 24 hod.“ je v podkladoch nejednoznačný – v texte ho uvádzam doslova podľa výrobcu, pred zverejnením overiť u dodávateľa.",
+          "URL produktu obsahuje 6000K, ale v údajoch farba svetla chýba – v texte ju preto neuvádzam.",
+          "16 W je výkon solárneho panelu, nie príkon LED – v názve aj texte je to tak formulované."
+        ],
+        "en": [
+          "The battery runtime “approx. 8 / 24 h” is ambiguous in the source – I quote it as the manufacturer states it; verify with the supplier before publishing.",
+          "The product URL contains 6000K, but the data has no colour temperature – so the copy doesn’t mention it.",
+          "16 W is the solar panel’s power, not the LED’s – the name and copy say so explicitly."
+        ]
+      },
+      "results": [
+        {
+          "market": "sk",
+          "product_name": "LED solárny reflektor 1050 lm, IP65, solárny panel 16W, batéria 10000 mAh",
+          "seo_title": "Solárny LED reflektor 1050 lm IP65 s diaľkovým ovládačom",
+          "meta_description": "Solárny LED reflektor 1050 lm, IP65, so 16W panelom, batériou 10000 mAh a diaľkovým ovládačom (časovač, stmievanie). Svieti bez pripojenia do siete.",
+          "short_description": "Solárny reflektor so svetelným tokom 1050 lm a krytím IP65 sa nabíja zo 16W fotovoltického panelu do lítiovej batérie 3,2 V / 10000 mAh. Diaľkovým ovládačom ho zapnete, stlmíte alebo nastavíte časovač na 3, 5 či 8 hodín.",
+          "description_html": "<h2>Technické parametre</h2><ul><li><strong>Svetelný tok:</strong> 1050 lm – udáva množstvo svetla; čím vyššie číslo, tým viac svetla</li><li><strong>Krytie:</strong> IP65 – prachotesné a odolné voči striekajúcej vode, vhodné do exteriéru</li><li><strong>Solárny panel:</strong> 16 W, kábel 5 m</li><li><strong>Batéria:</strong> lítiová, 3,2 V, 10000 mAh</li><li><strong>Nabíjanie:</strong> slnečnou energiou, plné nabitie za 6–7 hodín</li><li><strong>Prevádzková výdrž:</strong> podľa výrobcu približne 8 / 24 h</li><li><strong>Telo:</strong> vysoko odolný čierny hliník, priehľadné sklo, vnútorný reflektor</li><li><strong>Ovládanie:</strong> infračervený diaľkový ovládač (ON/OFF, časovač, stmievanie); vyžaduje 2× batériu AA, nie sú súčasťou balenia</li><li><strong>Časovač vypnutia:</strong> 3, 5 alebo 8 hodín</li></ul><h2>Automatická prevádzka</h2><p>Reflektor sa po zotmení vždy automaticky rozsvieti a pri svitaní zhasne. Túto funkciu nie je možné vypnúť – diaľkovým ovládačom však môžete nastaviť časovač vypnutia alebo znížiť intenzitu svetla.</p><h2>Inštalácia a použitie</h2><p>Montáž je jednoduchá: solárny panel umiestnite na slnečné miesto a reflektor pripojený 5 m káblom tam, kde svetlo potrebujete. Vďaka krytiu IP65 je vhodný do záhrad, na nádvoria, k vilám a podobne.</p><h2>Obsah balenia</h2><ul><li>LED reflektor</li><li>Solárny panel s 5 m káblom</li><li>Infračervený diaľkový ovládač (bez batérií)</li></ul>",
+          "benefits": ["Bez pripojenia do siete – zo slnka sa nabije za 6–7 hodín", "1050 lm a krytie IP65 do záhrady či na nádvorie", "Diaľkový ovládač: stmievanie a časovač 3 / 5 / 8 h", "Odolné telo z čierneho hliníka so sklom", "Automaticky svieti od súmraku do svitania"],
+          "keywords": ["solárny reflektor", "solárny led reflektor", "solárne svietidlo s diaľkovým ovládačom", "vonkajší led reflektor ip65", "solárne osvetlenie záhrady", "solárny reflektor s panelom", "led reflektor 1050 lm"]
+        },
+        {
+          "market": "cz",
+          "product_name": "LED solární reflektor 1050 lm, IP65, solární panel 16W, baterie 10000 mAh",
+          "seo_title": "Solární LED reflektor 1050 lm IP65 s dálkovým ovladačem",
+          "meta_description": "Solární LED reflektor 1050 lm, IP65, s 16W panelem, baterií 10000 mAh a dálkovým ovladačem (časovač, stmívání). Svítí bez připojení k síti.",
+          "short_description": "Solární reflektor se světelným tokem 1050 lm a krytím IP65 se nabíjí z 16W fotovoltaického panelu do lithiové baterie 3,2 V / 10000 mAh. Dálkovým ovladačem ho zapnete, ztlumíte nebo nastavíte časovač na 3, 5 či 8 hodin.",
+          "description_html": "<h2>Technické parametry</h2><ul><li><strong>Světelný tok:</strong> 1050 lm – udává množství světla; čím vyšší číslo, tím více světla</li><li><strong>Krytí:</strong> IP65 – prachotěsné a odolné proti tryskající vodě, vhodné do exteriéru</li><li><strong>Solární panel:</strong> 16 W, kabel 5 m</li><li><strong>Baterie:</strong> lithiová, 3,2 V, 10000 mAh</li><li><strong>Nabíjení:</strong> sluneční energií, plné nabití za 6–7 hodin</li><li><strong>Provozní výdrž:</strong> podle výrobce přibližně 8 / 24 h</li><li><strong>Tělo:</strong> vysoce odolný černý hliník, čiré sklo, vnitřní reflektor</li><li><strong>Ovládání:</strong> infračervený dálkový ovladač (ON/OFF, časovač, stmívání); vyžaduje 2× baterii AA, nejsou součástí balení</li><li><strong>Časovač vypnutí:</strong> 3, 5 nebo 8 hodin</li></ul><h2>Automatický provoz</h2><p>Reflektor se po setmění vždy automaticky rozsvítí a za svítání zhasne. Tuto funkci nelze vypnout – dálkovým ovladačem však můžete nastavit časovač vypnutí nebo snížit intenzitu světla.</p><h2>Instalace a použití</h2><p>Montáž je jednoduchá: solární panel umístěte na slunné místo a reflektor připojený 5m kabelem tam, kde světlo potřebujete. Díky krytí IP65 je vhodný do zahrad, na nádvoří, k vilám a podobně.</p><h2>Obsah balení</h2><ul><li>LED reflektor</li><li>Solární panel s 5m kabelem</li><li>Infračervený dálkový ovladač (bez baterií)</li></ul>",
+          "benefits": ["Bez připojení k síti – ze slunce se nabije za 6–7 hodin", "1050 lm a krytí IP65 do zahrady či na nádvoří", "Dálkový ovladač: stmívání a časovač 3 / 5 / 8 h", "Odolné tělo z černého hliníku se sklem", "Automaticky svítí od soumraku do svítání"],
+          "keywords": ["solární reflektor", "solární led reflektor", "solární světlo s dálkovým ovladačem", "venkovní led reflektor ip65", "solární osvětlení zahrady", "solární reflektor s panelem", "led reflektor 1050 lm"]
+        },
+        {
+          "market": "pl",
+          "product_name": "Naświetlacz solarny LED 1050 lm, IP65, panel słoneczny 16W, akumulator 10000 mAh",
+          "seo_title": "Naświetlacz solarny LED 1050 lm IP65 z pilotem",
+          "meta_description": "Naświetlacz solarny LED 1050 lm, IP65, z panelem 16W, akumulatorem 10000 mAh i pilotem (timer, ściemnianie). Świeci bez podłączenia do sieci.",
+          "short_description": "Naświetlacz solarny o strumieniu 1050 lm i stopniu ochrony IP65 ładuje się z panelu fotowoltaicznego 16 W do akumulatora litowego 3,2 V / 10000 mAh. Pilotem włączysz go, przyciemnisz lub ustawisz timer na 3, 5 albo 8 godzin.",
+          "description_html": "<h2>Parametry techniczne</h2><ul><li><strong>Strumień świetlny:</strong> 1050 lm – określa ilość światła; im wyższa liczba, tym więcej światła</li><li><strong>Stopień ochrony:</strong> IP65 – pyłoszczelny i odporny na strumienie wody, do użytku na zewnątrz</li><li><strong>Panel słoneczny:</strong> 16 W, przewód 5 m</li><li><strong>Akumulator:</strong> litowy, 3,2 V, 10000 mAh</li><li><strong>Ładowanie:</strong> energią słoneczną, pełne naładowanie w 6–7 godzin</li><li><strong>Czas pracy:</strong> według producenta ok. 8 / 24 h</li><li><strong>Obudowa:</strong> wytrzymałe czarne aluminium, przezroczyste szkło, wewnętrzny odbłyśnik</li><li><strong>Sterowanie:</strong> pilot na podczerwień (ON/OFF, timer, ściemnianie); wymaga 2 baterii AA, brak w zestawie</li><li><strong>Timer wyłączenia:</strong> 3, 5 lub 8 godzin</li></ul><h2>Praca automatyczna</h2><p>Naświetlacz zawsze włącza się automatycznie po zmroku i gaśnie o świcie. Tej funkcji nie można wyłączyć – za pomocą pilota możesz jednak ustawić timer wyłączenia lub zmniejszyć natężenie światła.</p><h2>Montaż i zastosowanie</h2><p>Montaż jest prosty: panel słoneczny umieść w nasłonecznionym miejscu, a naświetlacz połączony przewodem 5 m tam, gdzie potrzebujesz światła. Dzięki IP65 sprawdzi się w ogrodzie, na podwórzu, przy willi i w podobnych miejscach.</p><h2>Zawartość zestawu</h2><ul><li>Naświetlacz LED</li><li>Panel słoneczny z przewodem 5 m</li><li>Pilot na podczerwień (bez baterii)</li></ul>",
+          "benefits": ["Bez podłączenia do sieci – od słońca ładuje się w 6–7 godzin", "1050 lm i IP65 do ogrodu i na podwórze", "Pilot: ściemnianie i timer 3 / 5 / 8 h", "Wytrzymała obudowa z czarnego aluminium i szkła", "Automatycznie świeci od zmroku do świtu"],
+          "keywords": ["lampa solarna z pilotem", "naświetlacz solarny led", "halogen solarny", "lampa solarna ogrodowa", "naświetlacz led zewnętrzny ip65", "lampa solarna z panelem", "naświetlacz solarny 1050 lm"]
+        },
+        {
+          "market": "at",
+          "product_name": "Solar LED Strahler 1050 lm, IP65, 16W Solarpanel, Akku 10000 mAh",
+          "seo_title": "Solar LED Strahler 1050 lm IP65 mit Fernbedienung",
+          "meta_description": "Solar LED Strahler mit 1050 lm, IP65, 16W Solarpanel, 10000 mAh Akku und Fernbedienung (Timer, Dimmen). Leuchtet ganz ohne Stromanschluss.",
+          "short_description": "Der Solarstrahler mit 1050 lm Lichtstrom und Schutzart IP65 lädt sich über ein 16-W-Solarpanel in einen Lithium-Akku mit 3,2 V / 10000 mAh. Per Fernbedienung schalten, dimmen oder den Timer auf 3, 5 oder 8 Stunden stellen.",
+          "description_html": "<h2>Technische Daten</h2><ul><li><strong>Lichtstrom:</strong> 1050 lm – gibt die Lichtmenge an; je höher die Zahl, desto mehr Licht</li><li><strong>Schutzart:</strong> IP65 – staubdicht und geschützt gegen Strahlwasser, für den Außenbereich geeignet</li><li><strong>Solarpanel:</strong> 16 W, Kabel 5 m</li><li><strong>Akku:</strong> Lithium, 3,2 V, 10000 mAh</li><li><strong>Laden:</strong> mit Sonnenenergie, voll geladen in 6–7 Stunden</li><li><strong>Betriebsdauer:</strong> laut Hersteller ca. 8 / 24 h</li><li><strong>Gehäuse:</strong> robustes schwarzes Aluminium, klares Glas, innenliegender Reflektor</li><li><strong>Bedienung:</strong> Infrarot-Fernbedienung (EIN/AUS, Timer, Dimmen); benötigt 2× AA-Batterien, nicht im Lieferumfang</li><li><strong>Abschalt-Timer:</strong> 3, 5 oder 8 Stunden</li></ul><h2>Automatikbetrieb</h2><p>Der Strahler schaltet sich bei Dunkelheit immer automatisch ein und bei Tagesanbruch aus. Diese Funktion lässt sich nicht deaktivieren – per Fernbedienung können Sie jedoch den Abschalt-Timer einstellen oder die Helligkeit reduzieren.</p><h2>Montage und Einsatz</h2><p>Die Montage ist einfach: Das Solarpanel an einem sonnigen Platz anbringen, den Strahler über das 5-m-Kabel dort, wo Sie Licht brauchen. Dank IP65 ideal für Gärten, Innenhöfe, Villen und Ähnliches.</p><h2>Lieferumfang</h2><ul><li>LED-Strahler</li><li>Solarpanel mit 5-m-Kabel</li><li>Infrarot-Fernbedienung (ohne Batterien)</li></ul>",
+          "benefits": ["Ohne Stromanschluss – lädt in 6–7 Stunden mit Sonnenlicht", "1050 lm und IP65 für Garten und Innenhof", "Fernbedienung: Dimmen und Timer 3 / 5 / 8 h", "Robustes Gehäuse aus schwarzem Aluminium und Glas", "Leuchtet automatisch von der Dämmerung bis zum Morgen"],
+          "keywords": ["solar strahler", "solar led strahler", "solarlampe mit fernbedienung", "led strahler außen ip65", "solar gartenbeleuchtung", "solarstrahler mit panel", "solar fluter"]
+        },
+        {
+          "market": "hr",
+          "product_name": "Solarni LED reflektor 1050 lm, IP65, solarni panel 16W, baterija 10000 mAh",
+          "seo_title": "Solarni LED reflektor 1050 lm IP65 s daljinskim upravljačem",
+          "meta_description": "Solarni LED reflektor 1050 lm, IP65, sa solarnim panelom 16W, baterijom 10000 mAh i daljinskim upravljačem (tajmer, prigušivanje). Bez struje iz mreže.",
+          "short_description": "Solarni reflektor sa svjetlosnim tokom od 1050 lm i zaštitom IP65 puni se preko fotonaponskog panela od 16 W u litijsku bateriju 3,2 V / 10000 mAh. Daljinskim upravljačem ga uključujete, prigušujete ili postavljate tajmer na 3, 5 ili 8 sati.",
+          "description_html": "<h2>Tehničke karakteristike</h2><ul><li><strong>Svjetlosni tok:</strong> 1050 lm – označava količinu svjetla; što je broj veći, to je više svjetla</li><li><strong>Zaštita:</strong> IP65 – nepropusno za prašinu i otporno na mlazove vode, pogodno za vanjsku upotrebu</li><li><strong>Solarni panel:</strong> 16 W, kabel 5 m</li><li><strong>Baterija:</strong> litijska, 3,2 V, 10000 mAh</li><li><strong>Punjenje:</strong> sunčevom energijom, potpuno napunjena za 6–7 sati</li><li><strong>Autonomija rada:</strong> prema proizvođaču otprilike 8 / 24 h</li><li><strong>Kućište:</strong> vrlo izdržljiv crni aluminij, prozirno staklo, unutarnji reflektor</li><li><strong>Upravljanje:</strong> infracrveni daljinski upravljač (ON/OFF, tajmer, prigušivanje); potrebne 2× AA baterije, nisu uključene</li><li><strong>Tajmer isključivanja:</strong> 3, 5 ili 8 sati</li></ul><h2>Automatski rad</h2><p>Reflektor se nakon mraka uvijek automatski uključi, a u zoru isključi. Ova se funkcija ne može isključiti – daljinskim upravljačem ipak možete postaviti tajmer isključivanja ili smanjiti jačinu svjetla.</p><h2>Montaža i primjena</h2><p>Montaža je jednostavna: solarni panel postavite na sunčano mjesto, a reflektor spojen kabelom od 5 m ondje gdje vam treba svjetlo. Zahvaljujući zaštiti IP65 pogodan je za vrtove, dvorišta, vile i slično.</p><h2>Sadržaj pakiranja</h2><ul><li>LED reflektor</li><li>Solarni panel s kabelom od 5 m</li><li>Infracrveni daljinski upravljač (bez baterija)</li></ul>",
+          "benefits": ["Bez priključka na mrežu – na suncu se napuni za 6–7 sati", "1050 lm i IP65 za vrt i dvorište", "Daljinski upravljač: prigušivanje i tajmer 3 / 5 / 8 h", "Izdržljivo kućište od crnog aluminija i stakla", "Automatski svijetli od sumraka do zore"],
+          "keywords": ["solarni reflektor", "solarni led reflektor", "solarna lampa s daljinskim", "vanjski led reflektor ip65", "solarna rasvjeta za vrt", "solarni reflektor s panelom", "led reflektor 1050 lm"]
+        },
+        {
+          "market": "si",
+          "product_name": "Solarni LED reflektor 1050 lm, IP65, sončni panel 16W, baterija 10000 mAh",
+          "seo_title": "Solarni LED reflektor 1050 lm, IP65, z daljincem",
+          "meta_description": "Solarni LED reflektor 1050 lm, IP65, s sončnim panelom 16W, baterijo 10000 mAh in daljincem (časovnik, zatemnitev). Deluje brez priklopa na omrežje.",
+          "short_description": "Solarni reflektor s svetlobnim tokom 1050 lm in zaščito IP65 se polni prek 16-W fotovoltaičnega panela v litijevo baterijo 3,2 V / 10000 mAh. Z daljinskim upravljalnikom ga vklopite, zatemnite ali nastavite časovnik na 3, 5 ali 8 ur.",
+          "description_html": "<h2>Tehnični podatki</h2><ul><li><strong>Svetlobni tok:</strong> 1050 lm – pove količino svetlobe; višja kot je številka, več je svetlobe</li><li><strong>Zaščita:</strong> IP65 – prahotesno in odporno proti curkom vode, primerno za zunanjo uporabo</li><li><strong>Sončni panel:</strong> 16 W, kabel 5 m</li><li><strong>Baterija:</strong> litijeva, 3,2 V, 10000 mAh</li><li><strong>Polnjenje:</strong> s sončno energijo, polna baterija v 6–7 urah</li><li><strong>Avtonomija:</strong> po navedbah proizvajalca približno 8 / 24 h</li><li><strong>Ohišje:</strong> zelo odporen črn aluminij, prozorno steklo, notranji reflektor</li><li><strong>Upravljanje:</strong> infrardeči daljinski upravljalnik (ON/OFF, časovnik, zatemnitev); potrebuje 2 bateriji AA, nista priloženi</li><li><strong>Časovnik izklopa:</strong> 3, 5 ali 8 ur</li></ul><h2>Samodejno delovanje</h2><p>Reflektor se ob mraku vedno samodejno prižge in ob zori ugasne. Te funkcije ni mogoče izklopiti – z daljinskim upravljalnikom pa lahko nastavite časovnik izklopa ali zmanjšate moč svetlobe.</p><h2>Namestitev in uporaba</h2><p>Namestitev je preprosta: sončni panel postavite na sončno mesto, reflektor, povezan s 5-metrskim kablom, pa tja, kjer potrebujete svetlobo. Zaradi zaščite IP65 je primeren za vrtove, dvorišča, vile in podobno.</p><h2>Vsebina paketa</h2><ul><li>LED reflektor</li><li>Sončni panel s 5 m kablom</li><li>Infrardeči daljinski upravljalnik (brez baterij)</li></ul>",
+          "benefits": ["Brez priklopa na omrežje – na soncu se napolni v 6–7 urah", "1050 lm in IP65 za vrt in dvorišče", "Daljinec: zatemnitev in časovnik 3 / 5 / 8 h", "Odporno ohišje iz črnega aluminija in stekla", "Samodejno sveti od mraka do zore"],
+          "keywords": ["solarni reflektor", "solarni led reflektor", "solarna luč z daljincem", "zunanji led reflektor ip65", "solarna razsvetljava vrta", "solarni reflektor s panelom", "led reflektor 1050 lm"]
+        },
+        {
+          "market": "hu",
+          "product_name": "Napelemes LED reflektor 1050 lm, IP65, 16W napelem, 10000 mAh akkumulátor",
+          "seo_title": "Napelemes LED reflektor 1050 lm IP65 távirányítóval",
+          "meta_description": "Napelemes LED reflektor 1050 lm, IP65, 16W napelemmel, 10000 mAh akkuval és távirányítóval (időzítő, fényerő-szabályzás). Hálózati áram nélkül működik.",
+          "short_description": "Az 1050 lm fényáramú, IP65 védettségű napelemes reflektor egy 16 W-os napelemről tölti 3,2 V / 10000 mAh-s lítium akkumulátorát. Távirányítóval be- és kikapcsolhatja, szabályozhatja a fényerőt, vagy 3, 5, illetve 8 órás időzítőt állíthat be.",
+          "description_html": "<h2>Műszaki adatok</h2><ul><li><strong>Fényáram:</strong> 1050 lm – a fény mennyiségét jelzi; minél nagyobb a szám, annál több a fény</li><li><strong>Védettség:</strong> IP65 – porálló és vízsugár ellen védett, kültéri használatra alkalmas</li><li><strong>Napelem:</strong> 16 W, 5 m kábel</li><li><strong>Akkumulátor:</strong> lítium, 3,2 V, 10000 mAh</li><li><strong>Töltés:</strong> napenergiával, teljes feltöltés 6–7 óra alatt</li><li><strong>Üzemidő:</strong> a gyártó szerint kb. 8 / 24 óra</li><li><strong>Ház:</strong> nagy szilárdságú fekete alumínium, átlátszó üveg, belső reflektor</li><li><strong>Vezérlés:</strong> infravörös távirányító (BE/KI, időzítő, fényerő-szabályzás); 2 db AA elem szükséges, nem tartozék</li><li><strong>Kikapcsolási időzítő:</strong> 3, 5 vagy 8 óra</li></ul><h2>Automatikus működés</h2><p>A reflektor sötétedéskor mindig automatikusan felkapcsol, hajnalban pedig kikapcsol. Ez a funkció nem kapcsolható ki – a távirányítóval azonban beállíthatja a kikapcsolási időzítőt, vagy csökkentheti a fényerőt.</p><h2>Telepítés és felhasználás</h2><p>A felszerelés egyszerű: a napelemet helyezze napos helyre, a reflektort pedig az 5 m-es kábellel oda, ahol fényre van szüksége. IP65 védettségének köszönhetően kertekbe, udvarokra, villákhoz és hasonló helyekre ideális.</p><h2>A csomag tartalma</h2><ul><li>LED reflektor</li><li>Napelem 5 m-es kábellel</li><li>Infravörös távirányító (elemek nélkül)</li></ul>",
+          "benefits": ["Hálózati áram nélkül – 6–7 óra alatt feltölt a napon", "1050 lm és IP65 kertbe, udvarra", "Távirányító: fényerő-szabályzás és 3 / 5 / 8 órás időzítő", "Strapabíró fekete alumínium ház üveggel", "Automatikusan világít alkonyattól hajnalig"],
+          "keywords": ["napelemes reflektor", "napelemes led reflektor", "távirányítós napelemes lámpa", "kültéri led reflektor ip65", "napelemes kerti világítás", "szolár reflektor", "led reflektor 1050 lm"]
+        },
+        {
+          "market": "ro",
+          "product_name": "Proiector LED solar 1050 lm, IP65, panou solar 16W, acumulator 10000 mAh",
+          "seo_title": "Proiector LED solar 1050 lm IP65 cu telecomandă",
+          "meta_description": "Proiector LED solar de 1050 lm, IP65, cu panou de 16W, acumulator de 10000 mAh și telecomandă (temporizator, reglaj intensitate). Fără curent de la rețea.",
+          "short_description": "Proiectorul solar cu flux luminos de 1050 lm și protecție IP65 se încarcă de la un panou fotovoltaic de 16 W într-un acumulator cu litiu de 3,2 V / 10000 mAh. Din telecomandă îl porniți, reglați intensitatea sau setați temporizatorul la 3, 5 sau 8 ore.",
+          "description_html": "<h2>Specificații tehnice</h2><ul><li><strong>Flux luminos:</strong> 1050 lm – indică cantitatea de lumină; cu cât cifra este mai mare, cu atât mai multă lumină</li><li><strong>Grad de protecție:</strong> IP65 – etanș la praf și protejat împotriva jeturilor de apă, potrivit pentru exterior</li><li><strong>Panou solar:</strong> 16 W, cablu de 5 m</li><li><strong>Acumulator:</strong> litiu, 3,2 V, 10000 mAh</li><li><strong>Încărcare:</strong> cu energie solară, încărcare completă în 6–7 ore</li><li><strong>Autonomie:</strong> conform producătorului aprox. 8 / 24 h</li><li><strong>Carcasă:</strong> aluminiu negru foarte rezistent, sticlă transparentă, reflector interior</li><li><strong>Control:</strong> telecomandă cu infraroșu (ON/OFF, temporizator, reglaj intensitate); necesită 2 baterii AA, neincluse</li><li><strong>Temporizator de oprire:</strong> 3, 5 sau 8 ore</li></ul><h2>Funcționare automată</h2><p>Proiectorul se aprinde întotdeauna automat la căderea serii și se stinge în zori. Această funcție nu poate fi dezactivată – din telecomandă puteți însă seta temporizatorul de oprire sau reduce intensitatea luminii.</p><h2>Montaj și utilizare</h2><p>Montajul este simplu: așezați panoul solar într-un loc însorit, iar proiectorul, conectat prin cablul de 5 m, acolo unde aveți nevoie de lumină. Datorită protecției IP65 este potrivit pentru grădini, curți, vile și locuri similare.</p><h2>Conținutul pachetului</h2><ul><li>Proiector LED</li><li>Panou solar cu cablu de 5 m</li><li>Telecomandă cu infraroșu (fără baterii)</li></ul>",
+          "benefits": ["Fără racord la rețea – se încarcă la soare în 6–7 ore", "1050 lm și IP65 pentru grădină și curte", "Telecomandă: reglaj intensitate și temporizator 3 / 5 / 8 h", "Carcasă rezistentă din aluminiu negru și sticlă", "Se aprinde automat de la apus până la răsărit"],
+          "keywords": ["proiector solar", "proiector led solar", "lampa solara cu telecomanda", "proiector led exterior ip65", "iluminat solar gradina", "proiector solar cu panou", "proiector led 1050 lm"]
+        }
+      ]
+    },
+    {
+      "code": "3837",
+      "label": { "sk": "Dizajnové závesné svietidlo", "en": "Design pendant light" },
+      "tone": "professional",
+      "length": "short",
+      "review_notes": {
+        "sk": [
+          "60 W v katalógu je maximálny príkon žiarovky, nie výkon svietidla – v texte je to tak uvedené.",
+          "V podkladoch chýbajú rozmery a dĺžka závesu – zákazníci sa na ne pri závesných svietidlách často pýtajú, odporúčam doplniť od dodávateľa."
+        ],
+        "en": [
+          "The 60 W in the catalogue is the maximum bulb wattage, not the fixture’s power – the copy says so.",
+          "Dimensions and cable/suspension length are missing – customers often ask about them for pendant lights; worth getting from the supplier."
+        ]
+      },
+      "results": [
+        {
+          "market": "sk",
+          "product_name": "Závesné geometrické svietidlo Triangel, zlato-čierne, E27",
+          "seo_title": "Geometrické závesné svietidlo zlato-čierne E27 | Triangel",
+          "meta_description": "Závesné svietidlo s geometrickým dizajnom v zlato-čiernom prevedení, pre LED žiarovku E27 do 60 W. Do domácnosti, hotela, reštaurácie aj kancelárie.",
+          "short_description": "Geometrické závesné svietidlo v kombinácii zlatej a čiernej dodá priestoru moderný, výrazný akcent. Je určené pre LED žiarovku so závitom E27 do max. 60 W, ktorú si zvolíte podľa želanej atmosféry.",
+          "description_html": "<h2>Výrazný geometrický dizajn v zlatej a čiernej</h2><p>Závesné svietidlo Triangel od V-TAC spája štýlový geometrický tvar s kombináciou zlatej a čiernej farby. Vďaka jednoduchej inštalácii rýchlo dotvorí interiér domácnosti aj komerčných priestorov.</p><h2>Kde sa hodí</h2><ul><li>Domáce osvetlenie</li><li>Hotely a reštaurácie</li><li>Kancelárie a komerčné priestory</li></ul><h2>Dôležité informácie</h2><ul><li><strong>Pätica:</strong> E27</li><li><strong>Max. príkon žiarovky:</strong> 60 W</li><li>LED žiarovka nie je súčasťou balenia.</li></ul><p><strong>Tip:</strong> pre útulnú atmosféru zvoľte žiarovku s teplým svetlom okolo 2700 K – čím nižšie číslo v Kelvinoch, tým teplejšie a žltšie svetlo.</p>",
+          "benefits": ["Moderný geometrický dizajn v zlato-čiernom prevedení", "Jednoduchá inštalácia", "Pätica E27 pre LED žiarovku do 60 W", "Do domácnosti aj komerčných priestorov"],
+          "keywords": ["závesné svietidlo", "geometrické svietidlo", "závesné svietidlo zlaté", "závesná lampa čierna", "závesné svietidlo e27", "dizajnové závesné svietidlo", "moderné závesné svietidlo"]
+        },
+        {
+          "market": "cz",
+          "product_name": "Závěsné geometrické svítidlo Triangel, zlato-černé, E27",
+          "seo_title": "Geometrické závěsné svítidlo zlato-černé E27 | Triangel",
+          "meta_description": "Závěsné svítidlo s geometrickým designem ve zlato-černém provedení, pro LED žárovku E27 do 60 W. Do domácnosti, hotelu, restaurace i kanceláře.",
+          "short_description": "Geometrické závěsné svítidlo v kombinaci zlaté a černé dodá prostoru moderní, výrazný akcent. Je určené pro LED žárovku se závitem E27 do max. 60 W, kterou si zvolíte podle požadované atmosféry.",
+          "description_html": "<h2>Výrazný geometrický design ve zlaté a černé</h2><p>Závěsné svítidlo Triangel od V-TAC spojuje stylový geometrický tvar s kombinací zlaté a černé barvy. Díky jednoduché instalaci rychle dotvoří interiér domácnosti i komerčních prostor.</p><h2>Kam se hodí</h2><ul><li>Osvětlení domácnosti</li><li>Hotely a restaurace</li><li>Kanceláře a komerční prostory</li></ul><h2>Důležité informace</h2><ul><li><strong>Patice:</strong> E27</li><li><strong>Max. příkon žárovky:</strong> 60 W</li><li>LED žárovka není součástí balení.</li></ul><p><strong>Tip:</strong> pro útulnou atmosféru zvolte žárovku s teplým světlem kolem 2700 K – čím nižší číslo v kelvinech, tím teplejší a žlutější světlo.</p>",
+          "benefits": ["Moderní geometrický design ve zlato-černém provedení", "Jednoduchá instalace", "Patice E27 pro LED žárovku do 60 W", "Do domácnosti i komerčních prostor"],
+          "keywords": ["závěsné svítidlo", "geometrické svítidlo", "závěsné svítidlo zlaté", "závěsná lampa černá", "závěsné svítidlo e27", "designové závěsné svítidlo", "moderní závěsné svítidlo"]
+        },
+        {
+          "market": "pl",
+          "product_name": "Lampa wisząca geometryczna Triangel, złoto-czarna, E27",
+          "seo_title": "Geometryczna lampa wisząca złoto-czarna E27 | Triangel",
+          "meta_description": "Lampa wisząca o geometrycznym designie w kolorze złoto-czarnym, na żarówkę LED E27 do 60 W. Do domu, hotelu, restauracji i biura.",
+          "short_description": "Geometryczna lampa wisząca w połączeniu złota i czerni nadaje wnętrzu nowoczesny, wyrazisty akcent. Przeznaczona jest na żarówkę LED z gwintem E27 o mocy maks. 60 W, którą dobierzesz do wymarzonego nastroju.",
+          "description_html": "<h2>Wyrazisty geometryczny design w złocie i czerni</h2><p>Lampa wisząca Triangel marki V-TAC łączy stylowy geometryczny kształt z połączeniem złotego i czarnego koloru. Dzięki prostemu montażowi szybko dopełni wnętrze domu i przestrzeni komercyjnych.</p><h2>Gdzie się sprawdzi</h2><ul><li>Oświetlenie domowe</li><li>Hotele i restauracje</li><li>Biura i przestrzenie komercyjne</li></ul><h2>Ważne informacje</h2><ul><li><strong>Gwint:</strong> E27</li><li><strong>Maks. moc żarówki:</strong> 60 W</li><li>Żarówka LED nie jest dołączona do zestawu.</li></ul><p><strong>Wskazówka:</strong> dla przytulnej atmosfery wybierz żarówkę o ciepłej barwie około 2700 K – im niższa liczba kelwinów, tym cieplejsze, bardziej żółte światło.</p>",
+          "benefits": ["Nowoczesny geometryczny design w kolorze złoto-czarnym", "Prosty montaż", "Gwint E27 na żarówkę LED do 60 W", "Do domu i przestrzeni komercyjnych"],
+          "keywords": ["lampa wisząca", "lampa geometryczna", "lampa wisząca złota", "lampa wisząca czarna", "lampa wisząca e27", "designerska lampa wisząca", "nowoczesna lampa wisząca"]
+        },
+        {
+          "market": "at",
+          "product_name": "Geometrische Pendelleuchte Triangel, gold-schwarz, E27",
+          "seo_title": "Geometrische Pendelleuchte gold-schwarz E27 | Triangel",
+          "meta_description": "Pendelleuchte im geometrischen Design in Gold-Schwarz, für eine LED-Glühbirne E27 bis 60 W. Für Wohnung, Hotel, Restaurant und Büro.",
+          "short_description": "Die geometrische Pendelleuchte in Gold und Schwarz setzt einen modernen, markanten Akzent im Raum. Sie ist für eine LED-Glühbirne mit E27-Sockel bis max. 60 W ausgelegt, die Sie passend zur gewünschten Stimmung wählen.",
+          "description_html": "<h2>Markantes geometrisches Design in Gold und Schwarz</h2><p>Die Pendelleuchte Triangel von V-TAC verbindet eine stilvolle geometrische Form mit der Kombination aus Gold und Schwarz. Dank einfacher Montage ergänzt sie im Handumdrehen Wohnräume ebenso wie gewerbliche Räume.</p><h2>Wo sie passt</h2><ul><li>Wohnraumbeleuchtung</li><li>Hotels und Restaurants</li><li>Büros und Geschäftsräume</li></ul><h2>Wichtige Informationen</h2><ul><li><strong>Sockel:</strong> E27</li><li><strong>Max. Leistung der Glühbirne:</strong> 60 W</li><li>Die LED-Glühbirne ist nicht im Lieferumfang enthalten.</li></ul><p><strong>Tipp:</strong> Für eine gemütliche Atmosphäre wählen Sie eine Glühbirne mit warmweißem Licht um 2700 K – je niedriger die Kelvinzahl, desto wärmer und gelblicher das Licht.</p>",
+          "benefits": ["Modernes geometrisches Design in Gold-Schwarz", "Einfache Montage", "E27-Sockel für LED-Glühbirnen bis 60 W", "Für Wohnung und Geschäftsräume"],
+          "keywords": ["pendelleuchte", "geometrische lampe", "pendelleuchte gold", "hängelampe schwarz", "pendelleuchte e27", "design pendelleuchte", "moderne hängelampe"]
+        },
+        {
+          "market": "hr",
+          "product_name": "Viseća geometrijska svjetiljka Triangel, zlatno-crna, E27",
+          "seo_title": "Geometrijska viseća svjetiljka zlatno-crna E27 | Triangel",
+          "meta_description": "Viseća svjetiljka geometrijskog dizajna u zlatno-crnoj boji, za LED žarulju E27 do 60 W. Za dom, hotel, restoran i ured.",
+          "short_description": "Geometrijska viseća svjetiljka u kombinaciji zlatne i crne daje prostoru moderan, upečatljiv naglasak. Namijenjena je za LED žarulju s navojem E27 do najviše 60 W, koju birate prema željenom ugođaju.",
+          "description_html": "<h2>Upečatljiv geometrijski dizajn u zlatnoj i crnoj</h2><p>Viseća svjetiljka Triangel marke V-TAC spaja elegantan geometrijski oblik s kombinacijom zlatne i crne boje. Zahvaljujući jednostavnoj montaži brzo upotpunjuje interijer doma i poslovnih prostora.</p><h2>Gdje joj je mjesto</h2><ul><li>Kućna rasvjeta</li><li>Hoteli i restorani</li><li>Uredi i poslovni prostori</li></ul><h2>Važne informacije</h2><ul><li><strong>Grlo:</strong> E27</li><li><strong>Maks. snaga žarulje:</strong> 60 W</li><li>LED žarulja nije uključena u pakiranje.</li></ul><p><strong>Savjet:</strong> za ugodnu atmosferu odaberite žarulju toplog svjetla oko 2700 K – što je manji broj kelvina, svjetlo je toplije i žuće.</p>",
+          "benefits": ["Moderan geometrijski dizajn u zlatno-crnoj izvedbi", "Jednostavna montaža", "Grlo E27 za LED žarulju do 60 W", "Za dom i poslovne prostore"],
+          "keywords": ["viseća svjetiljka", "geometrijska lampa", "viseća lampa zlatna", "viseća lampa crna", "viseća svjetiljka e27", "dizajnerska viseća svjetiljka", "moderna viseća lampa"]
+        },
+        {
+          "market": "si",
+          "product_name": "Viseča geometrijska svetilka Triangel, zlato-črna, E27",
+          "seo_title": "Geometrijska viseča svetilka zlato-črna E27 | Triangel",
+          "meta_description": "Viseča svetilka geometrijskega dizajna v zlato-črni barvi, za LED sijalko E27 do 60 W. Za dom, hotel, restavracijo in pisarno.",
+          "short_description": "Geometrijska viseča svetilka v kombinaciji zlate in črne prostoru doda moderen, izrazit poudarek. Namenjena je LED sijalki z navojem E27 do največ 60 W, ki jo izberete glede na želeno vzdušje.",
+          "description_html": "<h2>Izrazit geometrijski dizajn v zlati in črni</h2><p>Viseča svetilka Triangel znamke V-TAC združuje eleganten geometrijski videz s kombinacijo zlate in črne barve. Zaradi preproste namestitve hitro dopolni notranjost doma in poslovnih prostorov.</p><h2>Kam sodi</h2><ul><li>Razsvetljava doma</li><li>Hoteli in restavracije</li><li>Pisarne in poslovni prostori</li></ul><h2>Pomembne informacije</h2><ul><li><strong>Grlo:</strong> E27</li><li><strong>Največja moč sijalke:</strong> 60 W</li><li>LED sijalka ni priložena.</li></ul><p><strong>Nasvet:</strong> za prijetno vzdušje izberite sijalko s toplo svetlobo okoli 2700 K – nižja kot je številka v kelvinih, toplejša in bolj rumena je svetloba.</p>",
+          "benefits": ["Moderen geometrijski dizajn v zlato-črni izvedbi", "Preprosta namestitev", "Grlo E27 za LED sijalko do 60 W", "Za dom in poslovne prostore"],
+          "keywords": ["viseča svetilka", "geometrijska svetilka", "viseča luč zlata", "viseča luč črna", "viseča svetilka e27", "dizajnerska viseča svetilka", "moderna viseča luč"]
+        },
+        {
+          "market": "hu",
+          "product_name": "Geometrikus függőlámpa Triangel, arany-fekete, E27",
+          "seo_title": "Geometrikus függőlámpa arany-fekete E27 | Triangel",
+          "meta_description": "Geometrikus dizájnú függőlámpa arany-fekete színben, max. 60 W-os E27 LED izzóhoz. Otthonba, szállodába, étterembe és irodába.",
+          "short_description": "Az arany és fekete színt ötvöző geometrikus függőlámpa modern, karakteres hangsúlyt ad a térnek. Max. 60 W-os, E27 foglalatú LED izzóhoz készült, amelyet a kívánt hangulathoz választhat.",
+          "description_html": "<h2>Karakteres geometrikus dizájn aranyban és feketében</h2><p>A V-TAC Triangel függőlámpája a stílusos geometrikus formát az arany és a fekete szín kombinációjával ötvözi. Egyszerű felszerelésének köszönhetően gyorsan kiegészíti az otthonok és üzleti terek belső terét.</p><h2>Hová illik</h2><ul><li>Otthoni világítás</li><li>Szállodák és éttermek</li><li>Irodák és üzlethelyiségek</li></ul><h2>Fontos információk</h2><ul><li><strong>Foglalat:</strong> E27</li><li><strong>Izzó max. teljesítménye:</strong> 60 W</li><li>A LED izzó nem tartozék.</li></ul><p><strong>Tipp:</strong> az otthonos hangulathoz válasszon 2700 K körüli meleg fényű izzót – minél kisebb a kelvinszám, annál melegebb, sárgásabb a fény.</p>",
+          "benefits": ["Modern geometrikus dizájn arany-fekete kivitelben", "Egyszerű felszerelés", "E27 foglalat max. 60 W-os LED izzóhoz", "Otthonba és üzleti terekbe"],
+          "keywords": ["függőlámpa", "geometrikus lámpa", "arany függőlámpa", "fekete függőlámpa", "függőlámpa e27", "design függőlámpa", "modern függőlámpa"]
+        },
+        {
+          "market": "ro",
+          "product_name": "Lustră suspendată geometrică Triangel, auriu-negru, E27",
+          "seo_title": "Lustră suspendată geometrică auriu-negru E27 | Triangel",
+          "meta_description": "Lustră suspendată cu design geometric, în combinația auriu-negru, pentru bec LED E27 de max. 60 W. Pentru casă, hotel, restaurant și birou.",
+          "short_description": "Lustra suspendată geometrică, în combinația de auriu și negru, aduce un accent modern și expresiv în orice spațiu. Este destinată unui bec LED cu dulie E27 de maximum 60 W, pe care îl alegeți în funcție de atmosfera dorită.",
+          "description_html": "<h2>Design geometric expresiv, în auriu și negru</h2><p>Lustra suspendată Triangel de la V-TAC îmbină o formă geometrică elegantă cu combinația de auriu și negru. Datorită montajului simplu, completează rapid interiorul locuinței și al spațiilor comerciale.</p><h2>Unde se potrivește</h2><ul><li>Iluminat casnic</li><li>Hoteluri și restaurante</li><li>Birouri și spații comerciale</li></ul><h2>Informații importante</h2><ul><li><strong>Dulie:</strong> E27</li><li><strong>Putere max. bec:</strong> 60 W</li><li>Becul LED nu este inclus în pachet.</li></ul><p><strong>Sfat:</strong> pentru o atmosferă primitoare, alegeți un bec cu lumină caldă, în jur de 2700 K – cu cât numărul de kelvini este mai mic, cu atât lumina este mai caldă și mai gălbuie.</p>",
+          "benefits": ["Design geometric modern, în finisaj auriu-negru", "Montaj simplu", "Dulie E27 pentru bec LED de max. 60 W", "Pentru casă și spații comerciale"],
+          "keywords": ["lustra suspendata", "lustra geometrica", "lustra aurie", "lustra neagra", "lustra e27", "lustra design", "lustra moderna"]
+        }
+      ]
+    }
+  ]
+}
