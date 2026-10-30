@@ -94,3 +94,27 @@ main { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
   .hero-grid { grid-template-columns: 1fr; gap: 36px; }
   .hero-photo { order: -1; width: min(260px, 70%); margin: 0 auto; }
 }
+
+/* CV: download buttons, nav pill and the CV section */
+.btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.btn-cv { background: var(--accent); color: var(--on-accent); box-shadow: 0 8px 24px color-mix(in srgb, var(--accent) 35%, transparent); padding: 14px 24px; font-size: 16px; }
+.btn-cv:hover { transform: translateY(-1px); }
+.btn-cv.alt { background: var(--surface); color: var(--ink); box-shadow: none; border: 1px solid var(--line); }
+.nav-cv { text-decoration: none; font: 700 14px var(--font); color: var(--on-accent); background: var(--accent); padding: 8px 16px; border-radius: 999px; }
+.cv-block { display: grid; grid-template-columns: 300px 1fr; gap: 56px; align-items: center; margin: 24px 0 72px; padding: 48px;
+  border-radius: 28px; background: #2f1a2c; color: #f6e9ef; position: relative; overflow: hidden; scroll-margin-top: 80px; }
+.cv-block::after { content: ""; position: absolute; right: -120px; top: -120px; width: 380px; height: 380px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(244,169,196,.28), transparent 70%); pointer-events: none; }
+.cv-block h2 { color: #fff; font-size: clamp(28px, 4vw, 40px); }
+.cv-block .eyebrow { color: #f4a9c4; }
+.cv-block p { color: #ead9e1; font-size: 18px; max-width: 520px; }
+.cv-block .btn-cv.alt { background: transparent; color: #fff; border-color: rgba(255,255,255,.3); }
+.cv-thumb { display: block; transform: rotate(-3deg); transition: transform .3s; }
+.cv-thumb:hover { transform: rotate(0) scale(1.02); }
+.cv-thumb img { width: 100%; border-radius: 8px; box-shadow: 0 24px 60px rgba(0,0,0,.45); background: #fff; }
+@media (max-width: 820px) {
+  .cv-block { grid-template-columns: 1fr; padding: 28px 22px; gap: 28px; }
+  .cv-thumb { max-width: 240px; margin: 0 auto; }
+  .nav-cv { margin-left: auto; }
+  .nav-cv + .lang-switch { margin-left: 8px; }
+}
