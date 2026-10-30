@@ -34,7 +34,7 @@ body { overflow-x: hidden; }
   background: var(--surface); color: var(--ink); display: grid; place-items: center; cursor: pointer; }
 .icon-btn:hover { background: var(--surface-2); }
 .progress { flex: 1; height: 8px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
-.progress-bar { height: 100%; width: 25%; background: linear-gradient(90deg, #f3c27f, var(--accent));
+.progress-bar { height: 100%; width: 25%; background: linear-gradient(90deg, var(--accent-2), var(--accent));
   border-radius: 99px; transition: width .35s ease; }
 .step-count { font: 600 13px var(--font); color: var(--muted); min-width: 36px; text-align: right; }
 
@@ -59,7 +59,7 @@ body { overflow-x: hidden; }
 .choice.on { border-color: var(--accent); background: var(--accent-soft); box-shadow: inset 0 0 0 1px var(--accent); }
 .choice-ico { width: 44px; height: 44px; flex: none; display: grid; place-items: center; border-radius: 12px;
   background: var(--surface-2); color: var(--accent-ink); }
-.choice.on .choice-ico { background: var(--accent); color: #1d1405; }
+.choice.on .choice-ico { background: var(--accent); color: var(--on-accent); }
 .choice-txt { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; }
 .choice-txt b { font-weight: 600; font-size: 16px; }
 .choice-txt small { color: var(--muted); font-size: 13px; margin-top: 2px; }
@@ -205,7 +205,7 @@ input[type="range"]:focus-visible::-webkit-slider-thumb { outline: 3px solid var
 /* Emília's tip */
 .tip { display: flex; gap: 16px; padding: 18px; margin: 26px 0 18px; border-left: 4px solid var(--accent); }
 .tip-avatar { width: 52px; height: 52px; flex: none; border-radius: 50%; display: grid; place-items: center;
-  background: linear-gradient(135deg, #f3c27f, var(--accent)); color: #1d1405; font: 700 24px var(--display); }
+  background: linear-gradient(135deg, var(--accent-2), var(--accent)); color: var(--on-accent); font: 700 24px var(--display); }
 .tip-text { margin: 4px 0 0; font-size: 16.5px; }
 
 .result-actions { display: flex; flex-wrap: wrap; gap: 10px; }
@@ -249,7 +249,7 @@ input[type="range"]:focus-visible::-webkit-slider-thumb { outline: 3px solid var
 
 /* ---------- Print: just the result, clean and light ---------- */
 @media print {
-  :root { --bg: #fff; --surface: #fff; --surface-2: #f4f2ed; --ink: #111; --muted: #555; --line: #ddd; --accent-soft: #fbf1e2; --shadow: none; }
+  :root { --bg: #fff; --surface: #fff; --surface-2: #f8edf1; --ink: #111; --muted: #555; --line: #ddd; --accent-soft: #fbeef2; --shadow: none; }
   .topbar, .quiz, .no-print, .story, .pitch, .toast, .credit { display: none !important; }
   .hero { margin: 0 0 8px; }
   .hero h1 { font-size: 24px; }

@@ -92,7 +92,7 @@
 .tab { border: 0; background: transparent; color: var(--muted); padding: 7px 12px; border-radius: 9px; font: 600 13px var(--font); cursor: pointer; }
 .tab.on { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
 .toolbar-actions { display: flex; flex-wrap: wrap; gap: 8px; }
-.count { background: var(--accent); color: #1d1405; border-radius: 999px; padding: 1px 8px; font-size: 12px; }
+.count { background: var(--accent); color: var(--on-accent); border-radius: 999px; padding: 1px 8px; font-size: 12px; }
 .status { min-height: 1.5em; margin: 0 0 8px; }
 
 .fmt-group { margin-bottom: 30px; }
@@ -113,7 +113,7 @@
 .icon-btn { border: 1px solid var(--line); background: var(--surface); color: var(--muted); width: 32px; height: 32px; border-radius: 8px;
   cursor: pointer; font-size: 15px; line-height: 1; display: inline-grid; place-items: center; flex: none; }
 .icon-btn:hover { color: var(--ink); border-color: var(--accent); }
-.icon-btn.star.on { color: #1d1405; background: var(--accent); border-color: var(--accent); }
+.icon-btn.star.on { color: var(--on-accent); background: var(--accent); border-color: var(--accent); }
 
 /* ---------- Viewer ---------- */
 dialog#viewer { border: 0; padding: 0; border-radius: 16px; background: var(--surface); color: var(--ink); width: min(1100px, calc(100vw - 24px));

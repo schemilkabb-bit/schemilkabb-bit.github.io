@@ -1,41 +1,43 @@
 /* Emília Schmidtová – shared look for the portfolio and its tools.
-   Same palette and fonts as her CV: warm amber accent, Fraunces headings, Inter text. */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap');
+   Same palette and font as her CV: dusty-rose accent on blush, Manrope throughout. */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --bg: #fbfaf7;
+  --bg: #fdf8f9;
   --surface: #ffffff;
-  --surface-2: #f4f2ed;
-  --ink: #1d2230;
-  --muted: #5d6475;
-  --line: #e6e3dc;
-  --accent: #d9902b;
-  --accent-ink: #9a5f0e;
-  --accent-soft: #fbf1e2;
+  --surface-2: #f8edf1;
+  --ink: #261d28;
+  --muted: #7b6c76;
+  --line: #f0e1e7;
+  --accent: #c2527b;
+  --accent-2: #eaa6bf;
+  --accent-ink: #9c3a60;
+  --accent-soft: #fbeef2;
+  --on-accent: #ffffff;
   --ok: #2f8f5b;
   --err: #c2412d;
-  --radius: 14px;
-  --shadow: 0 1px 2px rgba(29,34,48,.06), 0 8px 24px rgba(29,34,48,.06);
-  --font: Inter, system-ui, -apple-system, sans-serif;
-  --display: Fraunces, Georgia, serif;
+  --radius: 16px;
+  --shadow: 0 1px 2px rgba(38,29,40,.05), 0 10px 30px rgba(156,58,96,.08);
+  --font: Manrope, Inter, system-ui, -apple-system, sans-serif;
+  --display: Manrope, Inter, system-ui, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #14161c; --surface: #1c1f27; --surface-2: #232733; --ink: #eceae4; --muted: #a2a7b5;
-    --line: #2e3340; --accent: #e9a64a; --accent-ink: #f3c27f; --accent-soft: #2b2418;
-    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
+    --bg: #17121a; --surface: #201922; --surface-2: #2a2130; --ink: #f3eaef; --muted: #b6a5af;
+    --line: #3a2d3d; --accent: #e384a7; --accent-2: #f3bccf; --accent-ink: #f2abc5; --accent-soft: #3a2230; --on-accent: #2a0f1c;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.3);
   }
 }
 :root[data-theme="dark"] {
-  --bg: #14161c; --surface: #1c1f27; --surface-2: #232733; --ink: #eceae4; --muted: #a2a7b5;
-  --line: #2e3340; --accent: #e9a64a; --accent-ink: #f3c27f; --accent-soft: #2b2418;
-  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
+  --bg: #17121a; --surface: #201922; --surface-2: #2a2130; --ink: #f3eaef; --muted: #b6a5af;
+    --line: #3a2d3d; --accent: #e384a7; --accent-2: #f3bccf; --accent-ink: #f2abc5; --accent-soft: #3a2230; --on-accent: #2a0f1c;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.3);
 }
 
 * { box-sizing: border-box; }
 html, body { margin: 0; background: var(--bg); color: var(--ink); }
 body { font: 16px/1.55 var(--font); -webkit-font-smoothing: antialiased; }
-h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.15; letter-spacing: -0.01em; margin: 0 0 .4em; }
+h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 .4em; }
 a { color: var(--accent-ink); }
 img { max-width: 100%; display: block; }
 
@@ -48,14 +50,14 @@ img { max-width: 100%; display: block; }
 .lang-switch button { border: 0; background: transparent; color: var(--muted); padding: 6px 12px; font: 600 13px var(--font); cursor: pointer; }
 .lang-switch button.on { background: var(--ink); color: var(--bg); }
 
-.btn { display: inline-flex; align-items: center; gap: 8px; border: 0; border-radius: 10px; padding: 11px 18px;
-  font: 600 15px var(--font); cursor: pointer; background: var(--accent); color: #1d1405; }
+.btn { display: inline-flex; align-items: center; gap: 8px; border: 0; border-radius: 999px; padding: 11px 20px;
+  font: 600 15px var(--font); cursor: pointer; background: var(--accent); color: var(--on-accent); }
 .btn:hover { filter: brightness(1.05); }
 .btn.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
 .btn:disabled { opacity: .5; cursor: default; }
 
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
-.eyebrow { font: 700 12px var(--font); letter-spacing: .14em; text-transform: uppercase; color: var(--accent-ink); }
+.eyebrow { font: 700 12px var(--font); letter-spacing: .2em; text-transform: uppercase; color: var(--accent-ink); }
 .muted { color: var(--muted); }
 
 input, select, textarea { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line);
