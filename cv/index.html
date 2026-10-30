@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Emília Schmidtová – Životopis</title>
+<meta name="description" content="Životopis Emílie Schmidtovej: digitálny marketing a e-commerce, 3 roky praxe na 8 trhoch, 3 AI nástroje.">
+<style>
+/* =====================================================================
+   Emília Schmidtová – web CV.
+   Design language borrowed from DELOS (Apple HIG on the web): system font,
+   grouped background, white inset cards with a label above each section,
+   hairline separators, 8pt spacing grid, one tint colour (pink).
+   The same page prints to a single A4 sheet (see @media print).
+   ===================================================================== */
+:root {
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, "Segoe UI Variable Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --bg: #F2F2F7; --card: #FFFFFF; --label: #1C1C1E; --label-2: #6C6C70; --label-3: #A1A1A6;
+  --sep: rgba(60,60,67,.16); --fill: rgba(120,120,128,.10);
+  --tint: #D6336C; --tint-deep: #B0245A; --tint-soft: rgba(214,51,108,.10);
+  --green: #248A3D; --green-soft: rgba(52,199,89,.16);
+  --r-card: 14px; --r-pill: 999px;
+  --shadow: 0 1px 2px rgba(0,0,0,.04), 0 0 0 1px rgba(0,0,0,.03);
+  --mat: rgba(242,242,247,.78);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #000000; --card: #1C1C1E; --label: #FFFFFF; --label-2: #AEAEB2; --label-3: #6C6C70;
+    --sep: rgba(84,84,88,.6); --fill: rgba(120,120,128,.24);
+    --tint: #FF5C8F; --tint-deep: #FF8AB0; --tint-soft: rgba(255,92,143,.16);
+    --green: #30D158; --green-soft: rgba(48,209,88,.18); --shadow: none; --mat: rgba(0,0,0,.72);
+  }
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+body { font: 400 1rem/1.45 var(--font); color: var(--label); background: var(--bg); -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+[hidden] { display: none !important; }
+
+/* ---------- Top bar ---------- */
+.bar { position: sticky; top: 0; z-index: 10; background: var(--mat); backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid var(--sep); }
+.bar-in { max-width: 1040px; margin: 0 auto; padding: 10px 20px; display: flex; align-items: center; gap: 12px; }
+.back { font-size: .875rem; color: var(--tint); font-weight: 500; display: inline-flex; align-items: center; gap: 4px; }
+.bar-title { font-weight: 600; font-size: .9375rem; margin-right: auto; opacity: 0; transition: opacity .2s; }
+.bar.scrolled .bar-title { opacity: 1; }
+.seg { display: inline-flex; background: var(--fill); border-radius: 9px; padding: 2px; }
+.seg button { border: 0; background: transparent; color: var(--label); font: 600 .8125rem var(--font); padding: 5px 12px; border-radius: 7px; cursor: pointer; }
+.seg button.on { background: var(--card); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+.btn { display: inline-flex; align-items: center; gap: 8px; border: 0; border-radius: var(--r-pill); padding: 9px 16px; font: 600 .9375rem var(--font);
+  background: var(--tint); color: #fff; cursor: pointer; white-space: nowrap; }
+.btn:active { transform: scale(.98); }
+.btn.big { padding: 13px 22px; font-size: 1rem; }
+.btn .txt-short { display: none; }
+
+/* ---------- Page ---------- */
+.wrap { max-width: 1040px; margin: 0 auto; padding: 24px 20px 48px; }
+.card { background: var(--card); border-radius: var(--r-card); box-shadow: var(--shadow); }
+.label { font-size: .8125rem; font-weight: 600; letter-spacing: .02em; text-transform: uppercase; color: var(--label-2); margin: 0 0 8px 16px; }
+.block + .block { margin-top: 28px; }
+
+/* Hero */
+.hero { padding: 24px; display: grid; grid-template-columns: auto 1fr; gap: 20px 24px; align-items: center; }
+.photo { width: 112px; height: 112px; border-radius: 26px; object-fit: cover; object-position: center 22%; }
+.name { font-size: 2.125rem; line-height: 1.12; font-weight: 700; letter-spacing: -.02em; }
+.role { margin-top: 4px; font-size: 1.0625rem; color: var(--tint-deep); font-weight: 600; }
+.status { margin-top: 10px; display: inline-flex; align-items: center; gap: 8px; padding: 5px 12px 5px 10px; border-radius: var(--r-pill);
+  background: var(--green-soft); color: var(--green); font-size: .8125rem; font-weight: 600; }
+.status i { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.hook { grid-column: 1 / -1; font-size: 1.0625rem; line-height: 1.5; color: var(--label); padding-top: 18px; border-top: 1px solid var(--sep); }
+.hook b { font-weight: 600; color: var(--tint-deep); }
+.actions { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.act { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 12px 6px 10px; border-radius: 12px; background: var(--tint-soft);
+  color: var(--tint-deep); font-size: .8125rem; font-weight: 600; text-align: center; }
+.act svg { width: 22px; height: 22px; }
+.act:hover { background: color-mix(in srgb, var(--tint) 16%, transparent); }
+.act small { display: none; }
+
+/* Key facts */
+.facts { display: grid; grid-template-columns: repeat(3, 1fr); }
+.fact { padding: 18px 20px; }
+.fact + .fact { border-left: 1px solid var(--sep); }
+.fact b { display: block; font-size: 1.75rem; line-height: 1.1; font-weight: 700; letter-spacing: -.02em; color: var(--tint-deep); }
+.fact span { display: block; margin-top: 4px; font-size: .875rem; color: var(--label-2); line-height: 1.35; }
+
+/* Two columns */
+.cols { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 28px; align-items: start; margin-top: 28px; }
+
+/* Experience */
+.job { padding: 18px 20px 6px; }
+.job + .job { border-top: 1px solid var(--sep); }
+.job-head { display: grid; grid-template-columns: 44px 1fr auto; gap: 14px; align-items: start; }
+.logo { width: 44px; height: 44px; border-radius: 11px; display: grid; place-items: center; font-weight: 700; font-size: 1.0625rem; color: #fff; background: var(--tint); }
+.logo.gray { background: var(--label-3); }
+.job h3 { font-size: 1.0625rem; font-weight: 600; line-height: 1.3; }
+.job .org { font-size: .9375rem; color: var(--label-2); margin-top: 2px; }
+.pill { display: inline-block; font-size: .75rem; font-weight: 600; padding: 3px 10px; border-radius: var(--r-pill); background: var(--fill); color: var(--label-2); white-space: nowrap; }
+.pill.tint { background: var(--tint-soft); color: var(--tint-deep); }
+.job .meta { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
+.rows { margin: 12px 0 0 58px; }
+.rows li { padding: 11px 0; border-top: 1px solid var(--sep); }
+.rows b { display: block; font-size: .9375rem; font-weight: 600; }
+.rows span { display: block; font-size: .9375rem; color: var(--label-2); margin-top: 1px; line-height: 1.4; }
+.job.small { padding-bottom: 18px; }
+
+/* Projects */
+.projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.proj { padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+.proj-ic { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; background: var(--tint-soft); color: var(--tint-deep); }
+.proj-ic svg { width: 20px; height: 20px; }
+.proj h3 { font-size: 1rem; font-weight: 600; }
+.proj p { font-size: .875rem; color: var(--label-2); line-height: 1.4; flex: 1; }
+.proj a { font-size: .875rem; font-weight: 600; color: var(--tint); display: inline-flex; align-items: center; gap: 4px; }
+.proj .pill { align-self: flex-start; }
+.live-note { display: none; }
+
+/* Simple list rows (education, skills, languages, other) */
+.list li { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 12px 16px; }
+.list li + li { border-top: 1px solid var(--sep); margin-left: 16px; padding-left: 0; }
+.list .k { font-size: .9375rem; font-weight: 600; }
+.list .k small { display: block; font-weight: 400; color: var(--label-2); font-size: .875rem; margin-top: 1px; }
+.list .v { font-size: .9375rem; color: var(--label-2); text-align: right; white-space: nowrap; }
+.list.stack li { display: block; }
+.list.stack .k, .list.stack .v { display: block; }
+.list.stack .v { text-align: left; white-space: normal; margin-top: 2px; }
+.dots { display: inline-flex; gap: 3px; margin-left: 8px; vertical-align: 1px; }
+.dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--fill); }
+.dots i.on { background: var(--tint); }
+.todo { background: rgba(255,204,0,.28); border-radius: 4px; padding: 0 3px; }
+
+.foot { margin-top: 36px; text-align: center; color: var(--label-2); font-size: .875rem; }
+.foot .btn { margin-bottom: 12px; }
+
+@media (max-width: 860px) {
+  .cols { grid-template-columns: 1fr; }
+  .projects { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .wrap { padding: 16px 12px 40px; }
+  .bar-in { padding: 8px 12px; }
+  .back span { display: none; }
+  .hero { grid-template-columns: 1fr; text-align: center; justify-items: center; padding: 20px 16px; }
+  .photo { width: 104px; height: 104px; }
+  .name { font-size: 1.75rem; }
+  .hook { text-align: left; }
+  .facts { grid-template-columns: 1fr; }
+  .fact + .fact { border-left: 0; border-top: 1px solid var(--sep); }
+  .rows { margin-left: 0; }
+  .job-head { grid-template-columns: 40px 1fr; }
+  .job-head .pill { grid-column: 2; justify-self: start; }
+  .btn .txt-long { display: none; }
+  .btn .txt-short { display: inline; }
+}
+
+/* =====================================================================
+   PRINT / PDF – one A4 page. Light theme, no bar, no buttons, compact type.
+   ===================================================================== */
+@page { size: A4; margin: 0; }
+@media print {
+  :root, :root:not([data-theme="light"]) {
+    --bg: #fff; --card: #fff; --label: #1C1C1E; --label-2: #5B5B60; --label-3: #A1A1A6; --sep: #E3E3E8; --fill: #F2F2F7;
+    --tint: #D6336C; --tint-deep: #B0245A; --tint-soft: #FCEAF1; --green: #248A3D; --green-soft: #E4F6E8; --shadow: none;
+  }
+  html { font-size: 7.35pt; }
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .bar, .actions, .foot, .proj a, .status { display: none !important; }
+  .wrap { max-width: none; width: 210mm; height: 297mm; padding: 10mm 12mm 0; overflow: hidden; }
+  .card { border: .25mm solid var(--sep); border-radius: 3mm; }
+  .label { margin: 0 0 1.6mm 1mm; font-size: 1rem; }
+  .block + .block { margin-top: 4.2mm; }
+  .cols { grid-template-columns: minmax(0, 1fr) 62mm; gap: 5mm; margin-top: 4.2mm; }
+
+  .hero { border: 0; padding: 0 0 4mm; grid-template-columns: 27mm 1fr; gap: 0 6mm; border-bottom: .6mm solid var(--tint); border-radius: 0; }
+  .photo { width: 27mm; height: 27mm; border-radius: 6mm; grid-row: 1 / span 2; }
+  .name { font-size: 2.9rem; }
+  .role { font-size: 1.35rem; }
+  .hook { grid-column: 2; border: 0; padding-top: 2mm; font-size: 1.3rem; }
+  .print-contact { display: flex !important; grid-column: 1 / -1; flex-wrap: wrap; justify-content: space-between; gap: 1mm 4mm; margin-top: 3.4mm;
+    font-size: 1.2rem; font-weight: 600; color: var(--label); }
+  .print-contact span { color: var(--tint-deep); margin-right: 1.2mm; font-size: 1rem; text-transform: uppercase; letter-spacing: .04em; }
+
+  .fact { padding: 2.6mm 4mm; }
+  .fact b { font-size: 2.2rem; }
+  .fact span { font-size: 1.1rem; }
+
+  .job { padding: 3mm 4mm 1mm; }
+  .job-head { grid-template-columns: 9mm 1fr auto; gap: 3mm; }
+  .logo { width: 9mm; height: 9mm; border-radius: 2.4mm; font-size: 1.4rem; }
+  .job h3 { font-size: 1.4rem; }
+  .job .org { font-size: 1.2rem; }
+  .job .meta { margin-top: 1mm; }
+  .pill { font-size: 1rem; padding: .4mm 2.2mm; }
+  .rows { margin: 2mm 0 0 12mm; }
+  .rows li { padding: 1.6mm 0; }
+  .rows b, .rows span { font-size: 1.2rem; }
+  .job.small { padding-bottom: 3mm; }
+
+  .projects { grid-template-columns: 1fr; gap: 0; }
+  .projects.card-group { border: .25mm solid var(--sep); border-radius: 3mm; overflow: hidden; background: var(--card); }
+  .proj { border: 0; border-radius: 0; padding: 2.2mm 4mm; display: grid; grid-template-columns: 7mm 30mm 1fr; gap: 0 3mm; align-items: start; }
+  .proj + .proj { border-top: .25mm solid var(--sep); }
+  .proj-ic { width: 7mm; height: 7mm; border-radius: 2mm; grid-row: 1 / span 2; }
+  .proj-ic svg { width: 4mm; height: 4mm; }
+  .proj .pill { grid-column: 2; grid-row: 2; font-size: .95rem; margin-top: .6mm; justify-self: start; }
+  .proj h3 { grid-column: 2; grid-row: 1; font-size: 1.3rem; }
+  .proj p { grid-column: 3; grid-row: 1 / span 2; font-size: 1.15rem; }
+  .live-note { display: block; margin: 1.6mm 0 0 1mm; font-size: 1.1rem; color: var(--label-2); }
+  .live-note b { color: var(--tint-deep); }
+
+  .list li { padding: 1.9mm 3.4mm; }
+  .list li + li { margin-left: 3.4mm; }
+  .list .k, .list .v { font-size: 1.2rem; }
+  .list .k small { font-size: 1.1rem; }
+  .dots i { width: 1.5mm; height: 1.5mm; }
+  .proj.card { border: 0; box-shadow: none; }
+  .list .v { white-space: normal; }
+}
+.print-contact { display: none; }
+.edu-side { display: none; }
+</style>
+</head>
+<body>
+
+<header class="bar" id="bar">
+  <div class="bar-in">
+    <a class="back" href="../"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg><span data-t="back"></span></a>
+    <span class="bar-title">Emília Schmidtová</span>
+    <div class="seg" role="group" aria-label="Language"><button data-lang="sk">SK</button><button data-lang="en">EN</button></div>
+    <a class="btn" id="pdf" download><svg viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg><span class="txt-long" data-t="pdf"></span><span data-t="pdfShort" class="txt-short"></span></a>
+  </div>
+</header>
+
+<main class="wrap" id="cv"></main>
+
+<script>
+// ---------- Content ----------
+const IN = 'https://www.linkedin.com/in/emilia-schmidtova/', WEB = 'https://schemilkabb-bit.github.io/';
+const ICON = {
+  mail: '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>',
+  phone: '<svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>',
+  in: '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>',
+  web: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>',
+  spark: '<svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.6L18 9.4l-4.2 1.8L12 16l-1.8-4.8L6 9.4l4.2-1.8z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>',
+  grid: '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg>',
+  bulb: '<svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg>',
+  arrow: '<svg viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>'
+};
+const T = {
+  sk: {
+    title: 'Emília Schmidtová – Životopis', back: 'Portfólio', pdf: 'Stiahnuť PDF', pdfShort: 'PDF', file: 'cv-sk.pdf',
+    role: 'Digitálny marketing & e-commerce', status: 'Hľadám stáž alebo prácu popri škole',
+    hook: 'Neviem programovať, <b>tak som s pomocou AI postavila 3 nástroje</b> pre naše e-shopy. Môžete si ich hneď vyskúšať. K tomu <b>3 roky praxe v e-commerce na 8 trhoch</b>.',
+    act: { mail: 'E-mail', phone: 'Zavolať', in: 'LinkedIn', web: 'Portfólio' },
+    facts: [['8 e-shopov', 'v 8 krajinách, na ktorých denne pracujem'], ['4 800+', 'produktov v katalógu, ktorý spravujem'], ['3 AI nástroje', 'funkčné a dostupné naživo v portfóliu']],
+    L: { exp: 'Pracovné skúsenosti', proj: 'AI projekty', edu: 'Vzdelanie', skills: 'Zručnosti', langs: 'Jazyky', avail: 'Dostupnosť' },
+    jobs: [{ logo: 'L', title: 'E-commerce & marketing asistentka', org: 'LEDart s.r.o. · LEDAKCIA · Bratislava', date: '06/2023 – dnes', meta: ['popri škole', 'cez leto plný úväzok'],
+      rows: [['Produktový katalóg', '8 e-shopov na Shoptete (SK, CZ, PL, AT, HU, HR, SI, RO): nové produkty, parametre, ceny a fotky.'],
+             ['SEO texty a lokalizácia', 'Popisy produktov pre 8 trhov, preklady škálované s pomocou AI.'],
+             ['Kampane a vizuály', 'Akcie ako „1+1 zadarmo“: bannery, produktové vizuály a príspevky na sociálne siete.'],
+             ['Zákazníci', 'Odpovede na e-maily a osobné poradenstvo v našej predajni v Bratislave.']] },
+           { logo: 'P', gray: true, small: true, title: 'Administratívna výpomoc', org: 'Prvá stavebná sporiteľňa, a.s. · dokumenty a dáta v Exceli', date: '01–03/2021' }],
+    projects: [['spark', 'Generatívna AI', 'Popisovač', 'Z parametrov produktu vytvorí popis, SEO titulok a HTML pre Shoptet naraz v 8 jazykoch.', 'tools/popisovac/'],
+               ['grid', 'Automatizácia', 'Bannerovač', 'Jedna akcia → 32 bannerov pre web, Instagram a Facebook s preloženým textom a cenou v mene každého trhu.', 'tools/bannerovac/'],
+               ['bulb', 'Pre zákazníkov', 'Svetelný poradca', 'Štyri otázky → správne svetlo a konkrétne produkty. K tomu plagát s QR kódom do predajne.', 'tools/poradca/']],
+    tryIt: 'Vyskúšať', live: 'Všetky tri nástroje naživo:',
+    edu: [['Medzinárodný manažment a marketing', 'AMBIS vysoká škola, Bratislava · Digitálny marketing', '2025 – dnes'],
+          ['Gymnázium J. G. Tajovského', 'Banská Bystrica · maturita z ekonomiky a matematiky', '2021 – 2025']],
+    skills: [['E-commerce', 'Shoptet, produktové dáta, SEO texty, lokalizácia'], ['Marketing & dizajn', 'Canva, kampane, sociálne siete'],
+             ['AI', 'ChatGPT, Claude, prompt engineering'], ['Kancelária', 'Excel, Word, PowerPoint']],
+    langs: [['Slovenčina', 'materinský', 5], ['Angličtina', 'C1', 4], ['Ruština', 'A2', 2], ['Španielčina', 'A2', 2]],
+    avail: [['Rozsah', '<span class="todo">~20 h týždenne</span>'], ['Forma', 'Bratislava, hybridne, na diaľku'], ['Leto', 'plný úväzok'], ['Vodičský preukaz', 'sk. B']],
+    foot: 'Potrebujete papierovú verziu? PDF sa zmestí na jednu stranu A4.'
+  },
+  en: {
+    title: 'Emília Schmidtová – CV', back: 'Portfolio', pdf: 'Download PDF', pdfShort: 'PDF', file: 'cv-en.pdf',
+    role: 'Digital marketing & e-commerce', status: 'Open to internships and part-time roles',
+    hook: 'I can’t code, <b>so I used AI to build 3 tools</b> for our online stores. You can try them right now. Plus <b>3 years of hands-on e-commerce across 8 markets</b>.',
+    act: { mail: 'Email', phone: 'Call', in: 'LinkedIn', web: 'Portfolio' },
+    facts: [['8 online stores', 'in 8 countries that I work on every day'], ['4,800+', 'products in the catalogue I manage'], ['3 AI tools', 'working and live in my portfolio']],
+    L: { exp: 'Experience', proj: 'AI projects', edu: 'Education', skills: 'Skills', langs: 'Languages', avail: 'Availability' },
+    jobs: [{ logo: 'L', title: 'E-commerce & Marketing Assistant', org: 'LEDart s.r.o. · LEDAKCIA · Bratislava', date: '06/2023 – now', meta: ['alongside studies', 'full-time in summers'],
+      rows: [['Product catalogue', '8 Shoptet stores (SK, CZ, PL, AT, HU, HR, SI, RO): new listings, specs, pricing and photos.'],
+             ['SEO copy & localisation', 'Product descriptions for 8 markets, with translation scaled using AI.'],
+             ['Campaigns & visuals', 'Promotions such as “Buy 1, Get 1 Free”: banners, product visuals and social media posts.'],
+             ['Customers', 'Answering emails and advising customers in person in our Bratislava store.']] },
+           { logo: 'P', gray: true, small: true, title: 'Administrative Assistant', org: 'Prvá stavebná sporiteľňa, a.s. · documents and Excel data entry', date: '01–03/2021' }],
+    projects: [['spark', 'Generative AI', 'Popisovač', 'Turns product specs into a description, SEO title and Shoptet HTML in 8 languages at once.', 'tools/popisovac/'],
+               ['grid', 'Automation', 'Bannerovač', 'One promotion → 32 banners for web, Instagram and Facebook, with translated wording and prices in each market’s currency.', 'tools/bannerovac/'],
+               ['bulb', 'Customer tool', 'Lighting Advisor', 'Four questions → the right light and real products. Plus an in-store poster with a QR code.', 'tools/poradca/']],
+    tryIt: 'Try it', live: 'All three tools live at',
+    edu: [['International Management & Marketing', 'AMBIS University, Bratislava · Digital Marketing', '2025 – now'],
+          ['J. G. Tajovský Grammar School', 'Banská Bystrica · exams in Economics & Mathematics', '2021 – 2025']],
+    skills: [['E-commerce', 'Shoptet, product data, SEO copy, localisation'], ['Marketing & design', 'Canva, campaigns, social media'],
+             ['AI', 'ChatGPT, Claude, prompt engineering'], ['Office', 'Excel, Word, PowerPoint']],
+    langs: [['Slovak', 'native', 5], ['English', 'C1', 4], ['Russian', 'A2', 2], ['Spanish', 'A2', 2]],
+    avail: [['Hours', '<span class="todo">~20 h per week</span>'], ['Where', 'Bratislava, hybrid, remote'], ['Summer', 'full-time'], ['Driving licence', 'B']],
+    foot: 'Need a printed copy? The PDF fits on one A4 page.'
+  }
+};
+
+// ---------- Render ----------
+function render(lang) {
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.title = t.title;
+  document.querySelectorAll('[data-t]').forEach(el => el.textContent = t[el.dataset.t]);
+  document.querySelectorAll('[data-lang]').forEach(b => b.classList.toggle('on', b.dataset.lang === lang));
+  document.getElementById('pdf').href = t.file;
+
+  const dots = n => `<span class="dots">${[1,2,3,4,5].map(i => `<i class="${i <= n ? 'on' : ''}"></i>`).join('')}</span>`;
+  document.getElementById('cv').innerHTML = `
+    <section class="card hero">
+      <img class="photo" src="../shared/img/emilia-square.jpg" alt="Emília Schmidtová">
+      <div>
+        <h1 class="name">Emília Schmidtová</h1>
+        <p class="role">${t.role}</p>
+        <p class="status"><i></i>${t.status}</p>
+      </div>
+      <p class="hook">${t.hook}</p>
+      <div class="actions">
+        <a class="act" href="mailto:schemilka@gmail.com">${ICON.mail}${t.act.mail}</a>
+        <a class="act" href="tel:+421948198626">${ICON.phone}${t.act.phone}</a>
+        <a class="act" href="${IN}" target="_blank" rel="noopener">${ICON.in}${t.act.in}</a>
+        <a class="act" href="${WEB}" target="_blank" rel="noopener">${ICON.web}${t.act.web}</a>
+      </div>
+      <p class="print-contact"><a><span>Tel</span>+421 948 198 626</a><a href="mailto:schemilka@gmail.com"><span>E-mail</span>schemilka@gmail.com</a><a href="${IN}"><span>In</span>in/emilia-schmidtova</a><a href="${WEB}"><span>Web</span>schemilkabb-bit.github.io</a></p>
+    </section>
+
+    <section class="block" style="margin-top:16px"><div class="card facts">${t.facts.map(([a, b]) => `<div class="fact"><b>${a}</b><span>${b}</span></div>`).join('')}</div></section>
+
+    <div class="cols">
+      <div>
+        <section class="block">
+          <h2 class="label">${t.L.exp}</h2>
+          <div class="card">${t.jobs.map(j => `
+            <article class="job${j.small ? ' small' : ''}">
+              <div class="job-head">
+                <div class="logo${j.gray ? ' gray' : ''}">${j.logo}</div>
+                <div><h3>${j.title}</h3><p class="org">${j.org}</p>${j.meta ? `<div class="meta">${j.meta.map(m => `<span class="pill">${m}</span>`).join('')}</div>` : ''}</div>
+                <span class="pill tint">${j.date}</span>
+              </div>
+              ${j.rows ? `<ul class="rows">${j.rows.map(([b, s]) => `<li><b>${b}</b><span>${s}</span></li>`).join('')}</ul>` : ''}
+            </article>`).join('')}
+          </div>
+        </section>
+
+        <section class="block">
+          <h2 class="label">${t.L.proj}</h2>
+          <div class="projects card-group">${t.projects.map(([ic, tag, name, desc, url]) => `
+            <article class="card proj">
+              <div class="proj-ic">${ICON[ic]}</div>
+              <span class="pill tint">${tag}</span>
+              <h3>${name}</h3>
+              <p>${desc}</p>
+              <a href="${WEB}${url}" target="_blank" rel="noopener">${t.tryIt} ${ICON.arrow}</a>
+            </article>`).join('')}
+          </div>
+          <p class="live-note">${t.live} <b>schemilkabb-bit.github.io</b></p>
+        </section>
+
+        <section class="block edu-main">
+          <h2 class="label">${t.L.edu}</h2>
+          <ul class="card list">${t.edu.map(([a, b, c]) => `<li><span class="k">${a}<small>${b}</small></span><span class="v">${c}</span></li>`).join('')}</ul>
+        </section>
+      </div>
+
+      <div>
+        <section class="block">
+          <h2 class="label">${t.L.skills}</h2>
+          <ul class="card list stack">${t.skills.map(([a, b]) => `<li><span class="k">${a}</span><span class="v">${b}</span></li>`).join('')}</ul>
+        </section>
+        <section class="block">
+          <h2 class="label">${t.L.langs}</h2>
+          <ul class="card list">${t.langs.map(([a, b, n]) => `<li><span class="k">${a}</span><span class="v">${b}${dots(n)}</span></li>`).join('')}</ul>
+        </section>
+        <section class="block">
+          <h2 class="label">${t.L.avail}</h2>
+          <ul class="card list">${t.avail.map(([a, b]) => `<li><span class="k">${a}</span><span class="v">${b}</span></li>`).join('')}</ul>
+        </section>
+        <section class="block edu-side">
+          <h2 class="label">${t.L.edu}</h2>
+          <ul class="card list stack">${t.edu.map(([a, b, c]) => `<li><span class="k">${a}</span><span class="v">${b} · ${c}</span></li>`).join('')}</ul>
+        </section>
+      </div>
+    </div>
+
+    <footer class="foot">
+      <a class="btn big" href="${t.file}" download><svg viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>${t.pdf}</a>
+      <p>${t.foot}</p>
+    </footer>`;
+  try { localStorage.setItem('lang', lang); } catch (e) {}
+}
+
+// Language: ?lang=en wins (used to render the PDFs), then the visitor's saved choice, then the browser language.
+const q = new URLSearchParams(location.search).get('lang');
+let saved = null; try { saved = localStorage.getItem('lang'); } catch (e) {}
+let lang = q || saved || (/^(sk|cs)/i.test(navigator.language) ? 'sk' : 'en');
+if (!T[lang]) lang = 'sk';
+render(lang);
+document.querySelectorAll('[data-lang]').forEach(b => b.addEventListener('click', () => render(b.dataset.lang)));
+const bar = document.getElementById('bar');
+addEventListener('scroll', () => bar.classList.toggle('scrolled', scrollY > 140), { passive: true });
+</script>
+</body>
+</html>
